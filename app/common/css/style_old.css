@@ -1,0 +1,4231 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+p {
+  color: #000;
+}
+
+section {
+  width: 100%;
+  float: left;
+}
+
+.sidenav {
+  height: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  text-align: center;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav .nav-logo {
+  text-align: left;
+  padding: 10px 10px 10px 80px;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+}
+
+.header-inner {
+  display: flex;
+  background: transparent;
+  gap: 20px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 80px;
+  position: fixed;
+  top: 0;
+  z-index: 9;
+  width: 100%;
+  transition: all 0.5s ease-out;
+}
+
+.header-btn {
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 100%;
+  color: #fff;
+  text-decoration: none;
+  padding: 16px 32px;
+  border: 1px solid #fff;
+  border-radius: 8px;
+}
+
+.header-btn img {
+  margin-left: 12px;
+}
+
+.header-inner-2 a img {
+  width: auto;
+  height: 80px;
+}
+
+.nav-logo img {
+  width: auto;
+  height: 80px;
+}
+
+.nav-bt {
+  color: #fff;
+  text-decoration: none;
+  transition: 0.3s;
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 200;
+  font-size: 40px;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+
+.siding-nav-link a {
+  display: inline;
+}
+
+.siding-nav-link {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.siding-nav-link {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  margin-left: 32px;
+  max-width: 1120px;
+  gap: 48px;
+}
+
+.siding-nav-link {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  margin-left: 80px;
+  margin-right: 80px;
+  max-width: 100%;
+  gap: 48px;
+  margin-top: 80px;
+  margin-bottom: 120px;
+}
+.cuttingedge-pagegff .row.row_cuttingedge-page-we-offer {
+  justify-content: center;
+  gap: 40px 0;
+}
+.cuttingedge-pagegff .our_solutions_block {
+  text-align: center;
+}
+.heading.headinghgg {
+  text-align: left !important;
+}
+.what-we-do.product-specifications.product-specificationsdaa {
+  background-size: cover;
+}
+.product-specificationsdaa .heading {
+  margin-bottom: 40px;
+}
+.product-specifications-slider img {
+  width: 100%;
+  border-radius: 20px;
+}
+.aroricon.aroricon1 {
+  filter: brightness(0) invert(0);
+}
+.aroricon {
+  margin-right: 5px;
+}
+.siding-nav-link ul li .dropdown-menu-links {
+  background: #212121;
+  border: 1px solid #cbd4e633;
+  border-radius: 8px;
+  justify-content: flex-start;
+  gap: 0px;
+  width: 400px;
+  display: flex;
+  position: absolute;
+  top: 75px;
+  left: 0;
+  z-index: 1;
+  overflow: hidden;
+  transition: max-height 0.4s ease;
+}
+.siding-nav-link ul li .dropdown-menu-links.open {
+  max-height: 500px;
+}
+.siding-nav-link ul li {
+  position: relative;
+}
+.siding-nav-link ul li .dropdown-menu-links li a {
+  padding: 5px 16px;
+}
+
+.siding-nav-link a.nav-bt,
+.siding-nav-link div.nav-bt {
+  color: #fff;
+  text-align: start;
+  flex: 0 0 100%;
+  max-width: 100%;
+  padding: 0;
+  font-family: DM Sans, sans-serif;
+  font-size: 40px;
+  font-weight: 200;
+  line-height: 100%;
+  display: inline;
+}
+
+.header-inner-bottom-flag-1 span,
+.header-inner-bottom-flag-2 span {
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 100%;
+  color: #fff;
+}
+
+.header-inner-bottom-flag-1,
+.header-inner-bottom-flag-2 {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.header-inner-bottom-1 p,
+.header-inner-bottom-2 p {
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 200;
+  font-size: 28px;
+  line-height: 125%;
+  text-align: left;
+  color: #ffffff;
+  margin-top: 24px;
+  margin-bottom: 0;
+}
+
+.header-inner-bottom {
+  display: flex;
+  align-items: flex-start;
+  margin-left: 80px;
+  max-width: 1120px;
+  gap: 24px;
+  justify-content: space-between;
+  padding: 40px 0;
+  border-top: 1px solid #595959;
+  border-bottom: 1px solid #595959;
+}
+
+.header-inner-bottom .header-inner-bottom-1 {
+  flex: 0 0 60%;
+  max-width: 60%;
+}
+
+.header-social {
+  margin-left: 80px;
+  display: flex;
+  gap: 48px;
+  padding: 40px 0;
+}
+
+.sidenav .header-btn {
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 100%;
+  color: #fff;
+  text-decoration: none;
+  padding: 16px 32px;
+  border: 1px solid #fff;
+  border-radius: 8px;
+}
+
+.sidenav .header-btn:hover,
+.header-btn:hover {
+  background: #fff;
+  color: #000;
+}
+
+.sidenav .header-btn:hover img,
+.header-btn:hover img {
+  filter: brightness(1) invert(1);
+}
+
+.header-btn.white-bg {
+  background: #fff;
+  color: #000;
+}
+
+.header-btn.white-bg:hover {
+  background: transparent;
+  color: #fff;
+}
+
+.header-btn.white-bg:hover img {
+  filter: brightness(1) invert(0);
+}
+
+.header-btn.white-bg img {
+  filter: brightness(1) invert(1);
+}
+
+.header-social-btn {
+  display: flex;
+  margin-left: 80px;
+  gap: 40px;
+}
+
+.banner-container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.banner {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+  z-index: 0;
+}
+
+.banner.active {
+  opacity: 1;
+  z-index: 1;
+}
+
+.cube {
+  position: absolute;
+  background-repeat: no-repeat;
+  transform-origin: center;
+  animation: cubeOut 1.2s ease-in-out forwards;
+  will-change: transform, opacity;
+}
+
+.banner-heading {
+  font-family: Playfair Display;
+  font-weight: 400;
+  font-size: 96px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #fff;
+}
+
+.banner-para {
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 200;
+  font-size: 48px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #fff;
+  margin: 24px 0 40px;
+}
+
+.banner-content .header-inner-3 {
+  display: flex;
+}
+
+.banner-container .banner {
+  padding: 200px 80px 80px 80px;
+  display: flex;
+  margin: auto;
+  justify-content: space-between;
+  align-items: center;
+  background-size: cover;
+  background-position: center;
+}
+
+.banner-content-right {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.banner-content {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.banner-content-inner img {
+  width: 100px;
+  height: auto;
+}
+
+.heading {
+  font-family: Playfair Display;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #000;
+  margin-bottom: 24px;
+}
+
+.para {
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 150%;
+  margin: 0;
+  color: #000;
+}
+
+.what-we-do-bt .header-inner-3 .header-btn {
+  background: #000;
+  border: 1px solid #000;
+}
+
+.what-we-do-bt .header-inner-3 .header-btn:hover {
+  background: #ffffff;
+  border: 1px solid #000;
+}
+
+.what-we-do-bt .header-inner-3 {
+  display: flex;
+}
+
+.what-we-do-bt {
+  display: flex;
+  justify-content: end;
+}
+
+.row.row_justify {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.what-we-do {
+  padding: 100px 80px;
+}
+
+.header-inner.scrollingbar {
+  background: #000;
+  box-shadow: 0 0 10px 1px #ffffff71;
+}
+
+.row-what-we-do-inner-1 li a {
+  font-family: Playfair Display;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #000;
+  text-decoration: none;
+  padding-bottom: 40px;
+  display: block;
+}
+
+.row-what-we-do-inner-1 li a.active {
+  font-family: Playfair Display;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #000;
+  border-right: 4px solid #000;
+}
+
+.row-what-we-do-inner-1 ul li {
+  list-style-type: none;
+}
+
+.row-what-we-do-inner-1 ul {
+  gap: 40px;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+}
+
+.row-what-we-do-inner-1 {
+  flex: 0 0 20%;
+  max-width: 20%;
+  border-right: 0.75px solid #aeaeae;
+}
+
+.row-what-we-do-inner-2 {
+  max-width: 78%;
+  flex: 0 0 78%;
+}
+
+.row-what-we-do {
+  display: flex;
+  gap: 24px;
+  justify-content: space-between;
+  margin-top: 80px;
+}
+
+.inner-wedo-img img {
+  width: 100%;
+  border-radius: 20px;
+  height: 300px;
+  object-fit: cover;
+  object-position: center;
+}
+.product_listing_img img {
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+}
+.swiper-button-prev,
+.swiper-button-next {
+  display: none !important;
+}
+.marquee-content .marquee-text img {
+  width: auto;
+  height: 100px;
+}
+.inner-wedo-para p {
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-top: 24px;
+}
+.small-inpara {
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  text-align: left;
+  max-width: 100%;
+}
+.row-what-we-do-inner-2 .header-btn {
+  background: #000;
+  border: 1px solid #000;
+}
+
+.row-what-we-do-inner-2 .header-btn:hover {
+  background: #fff;
+}
+
+.row.row-inn-img {
+  margin: 40px 0;
+}
+
+.row-what-we-do-inner-2 {
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+  height: 630px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  scrollbar-width: none;
+  /* Firefox */
+  -ms-overflow-style: none;
+  /* Internet Explorer and old Edge */
+}
+
+.row-what-we-do-inner-2::-webkit-scrollbar {
+  display: none;
+  /* Chrome, Safari, newer Edge */
+}
+
+.what-we-do.about-schon-we-do {
+  padding: 0 80px;
+}
+
+.about-schon-we-do-img {
+  margin: 64px 0;
+}
+
+.about-schon-we-do-img img {
+  width: 100%;
+}
+.what-we-do.product_listpage .about-schon-we-do-img {
+  margin: 64px 0 0;
+}
+.hmcount-bg .row {
+  justify-content: space-between;
+}
+
+.hmcount-bg .small-inpara {
+  max-width: 100%;
+}
+
+.hmcount-bg {
+  padding: 0 80px 150px;
+}
+
+.hmcount-bg .wrapper .counter.col_fourth {
+  border: 1px solid #000000;
+  border-left: 0;
+}
+
+.hmcount-bg .wrapper .counter.col_fourth.col_fourth-4 {
+  border-right: 0;
+}
+
+.what-we-do.home-bar-cta .heading {
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 200;
+  font-size: 64px;
+  line-height: 100%;
+  color: #fff;
+  text-align: left;
+}
+
+.what-we-do.home-bar-cta .para {
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 200;
+  font-size: 40px;
+  line-height: 100%;
+  color: #fff;
+  text-align: left;
+}
+
+.what-we-do.home-bar-cta {
+  background-size: cover;
+  padding: 40px 80px;
+  background-position: center;
+}
+
+.what-we-do.home-bar-cta .header-inner-3 .header-btn {
+  background: transparent;
+  border: 1px solid #fff;
+}
+
+.what-we-do.home-bar-cta .header-inner-3 .header-btn:hover {
+  background: #fff;
+}
+
+.what-we-do.home-bar-cta .heading span {
+  font-weight: 400;
+}
+
+.project_list {
+  padding: 100px 80px;
+}
+
+.project_list {
+  padding: 100px 80px;
+  background-size: cover;
+  background-position: center;
+}
+
+.product_listing {
+  position: relative;
+  overflow: hidden;
+  border-radius: 20px;
+}
+
+.product_listing_content {
+  position: absolute;
+  bottom: 0;
+  padding: 40px;
+  width: 100%;
+  /* background: linear-gradient(#0000 0%, #000000d1 100%); */
+}
+
+.product_listing_img {
+  position: relative;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.product_listing_img::after {
+  position: absolute;
+  content: '';
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgb(0, 0, 0) 100%);
+  border-radius: 20px;
+  display: none;
+}
+.footer_social {
+  display: flex;
+  gap: 24px;
+}
+
+.product_listing_content h3 {
+  font-family: Playfair Display;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 100%;
+  color: #fff;
+}
+
+.product_listing_content .header-inner-3 {
+  display: flex;
+}
+
+.product_listing_content p {
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  text-align: left;
+  max-width: 90%;
+  color: #fff;
+  margin: 20px 0;
+}
+
+.row.row_product_space {
+  gap: 30px 0;
+  margin-top: 64px;
+}
+
+.product_listing_content.product_listing_content_hover {
+  display: flex;
+  justify-content: end;
+  flex-direction: column;
+  opacity: 0;
+  bottom: 0;
+  transform: translate(-50%, 75%);
+  left: 50%;
+  transition: 0.5s all ease-in;
+  width: 100%;
+  height: 100%;
+}
+
+.product_listing:hover .product_listing_content.product_listing_content_hover {
+  opacity: 1;
+  bottom: 75%;
+  display: flex !important;
+}
+
+.product_listing_content {
+  transition: all 0.5s ease-out;
+  opacity: 1;
+}
+
+.product_listing:hover .product_listing_content {
+  opacity: 0;
+}
+
+.product_listing:hover .product_listing_content.product_listing_content_hover {
+  display: block;
+}
+
+.why_chose_schon {
+  padding: 100px 80px;
+}
+
+.why_chose_schon_head h3 {
+  font-family: Playfair Display;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #000;
+  margin: 24px 0;
+}
+
+.why_chose_schon_para p {
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  color: #000;
+  margin: 0;
+}
+
+.row.why_chose_schon_row {
+  margin: 80px 0 0 0;
+  gap: 80px 0;
+}
+
+.why_chose_schon_icon img {
+  width: auto;
+  height: 64px;
+}
+
+.our_solutions .why_chose_schon_icon img {
+  width: auto;
+  height: 150px;
+}
+
+.our_solutions .why_chose_schon_head h3,
+.our_solutions .why_chose_schon_para p,
+.our_solutions .heading,
+.our_solutions .small-inpara {
+  color: #fff;
+}
+
+.our_solutions {
+  background: #000;
+  padding: 100px 80px;
+}
+
+.our_solutions .header-inner-3 .header-btn {
+  background: #ffffff;
+  border: 1px solid #000;
+  color: #000;
+}
+
+.our_solutions .header-btn img {
+  filter: brightness(1) invert(1);
+}
+
+.our_solutions .header-inner-3 .header-btn:hover {
+  background: #00000000;
+  border: 1px solid #ffffff;
+  color: #fff;
+}
+
+.our_solutions .header-btn:hover img {
+  filter: brightness(1) invert(0);
+}
+
+.row.our_solutions_row {
+  margin: 80px 0 0 0;
+}
+
+.Client_list {
+  padding: 100px 0;
+  background-size: cover;
+  background-position: center;
+}
+
+.Client_list .row.row_justify {
+  padding: 0 80px;
+}
+
+.marquee-container {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+  margin-top: 64px;
+  overflow: hidden;
+}
+.marquee-content {
+  display: flex;
+  animation: marquee 20s linear infinite;
+}
+
+.marquee-content.marquee-rtl {
+  animation: marqueeltr 20s linear infinite;
+}
+.testimonials-icon img {
+  height: 43px;
+  width: auto;
+}
+.testimonials-content p {
+  letter-spacing: 0%;
+  font-family: DM Sans, sans-serif;
+  font-size: 16px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 150%;
+  margin: 0;
+  min-height: 120px;
+}
+.testimonials-content {
+  padding: 24px 0;
+  border-bottom: 1px solid #00000033;
+}
+.testimonials-inner-2 h3 {
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 125%;
+  letter-spacing: 0%;
+  text-align: left;
+  color: #000;
+  margin: 0;
+}
+.testimonials-inner-2 h3 span {
+  display: block;
+}
+.testimonials-block {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-top: 36px;
+}
+.testimonials {
+  padding: 40px;
+  background: #fafbfe;
+}
+.testimonialsmain {
+  padding: 100px 80px;
+}
+.testimonialsmain .row.row_justify {
+  margin-bottom: 64px;
+}
+.testimonialsmain .heading {
+  text-align: center;
+}
+.testimonials-inner-1 img {
+  width: 93px;
+  height: 93px;
+  border-radius: 50%;
+}
+.contact_form .heading {
+  color: #fff;
+}
+.contact_form .heading span {
+  display: block;
+}
+.what-we-do-btform {
+  padding: 80px 240px 80px 80px;
+  background: #00000099;
+}
+.what-we-do-btform input::placeholder,
+.what-we-do-btform textarea::placeholder {
+  color: #888888;
+}
+.what-we-do-btform input,
+.what-we-do-btform textarea {
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 125%;
+  letter-spacing: 0%;
+  color: #888888 !important;
+  padding: 20px;
+  background: #2a2a2a;
+  border: 1px solid #cbd4e633;
+  border-radius: 8px;
+}
+.what-we-do-btform textarea {
+  height: 100px;
+}
+.what-we-do-btform input:focus,
+.what-we-do-btform textarea:focus {
+  background: #2a2a2a;
+  outline: none;
+  border: 1px solid #cbd4e633;
+  box-shadow: none;
+}
+.contact_form .btn.btn-outline-secondary {
+  padding: 16px;
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #fff;
+  border: 1px solid #fff;
+  width: 100%;
+  margin-top: 20px;
+}
+.what-we-do-btform .form-row {
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+.contact_form_gsf {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  gap: 48px;
+  flex-direction: column;
+  padding: 0 0 0 240px;
+}
+.contact_logo img {
+  width: 420px;
+  height: auto;
+}
+.contact_form .heading {
+  color: #fff;
+  line-height: 150%;
+}
+/* Chrome, Safari, Edge, Opera */
+.contact_form input[type='number']::-webkit-inner-spin-button,
+.contact_form input[type='number']::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+.contact_form input[type='number'] {
+  -moz-appearance: textfield;
+}
+
+.ourexistence_block_content h3 {
+  font-family: Playfair Display;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  color: #000;
+  text-align: center;
+}
+
+.ourexistence_block_content h3 span {
+  display: block;
+}
+.ourexistence_block_img {
+  text-align: center;
+}
+.ourexistence_block_img img {
+  height: 200px;
+  width: auto;
+  margin-bottom: 24px;
+}
+.row.row_ourexistence {
+  justify-content: center;
+  margin-top: 64px;
+}
+.ourexistence {
+  background-size: contain;
+  background-position: center;
+  padding: 100px 0;
+}
+.ourexistence .row.row_ourexistence {
+  justify-content: space-around;
+}
+.footer {
+  background: #000;
+  padding: 80px 0 0px;
+}
+.footer_content p {
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 125%;
+  letter-spacing: 0%;
+  color: #fff;
+  margin: 12px 0 30px;
+}
+.footer_social a img {
+  width: auto;
+  height: 20px;
+}
+.footer_2 ul li,
+.footer_2 ul li a {
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 200%;
+  letter-spacing: 0%;
+  color: #f5f4f4;
+  text-decoration: none;
+}
+.footer_2 ul {
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.footer_2 h3 {
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 125%;
+  letter-spacing: 0%;
+  text-align: left;
+  color: #fff;
+  margin-bottom: 10px;
+}
+.footer .row.footer_row {
+  justify-content: space-between;
+}
+.footer .footer_logo img {
+  width: 200px;
+  height: auto;
+}
+.lowfoot {
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 125%;
+  margin: 40px 0 0 0;
+  padding: 20px 0;
+  border-top: 1px solid #535353;
+}
+.hoeitwork .what-we-do-bt {
+  justify-content: start;
+}
+.hoeitwork .para {
+  margin: 24px 0;
+}
+.hoeitwork {
+  padding: 150px 0 150px 80px;
+}
+.hoeitwork_slider {
+  padding: 40px 0 0 40px;
+  background: #000;
+  border-radius: 20px;
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  overflow: hidden;
+}
+.hoeitwork_slider .heading {
+  color: #fff;
+}
+.hoeitwork_slider .para {
+  color: #fff;
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 200;
+  font-size: 24px;
+  line-height: 125%;
+  letter-spacing: 0%;
+}
+.hoeitwork_slider .para span {
+  color: #fff;
+  font-weight: 500;
+}
+.hoeitwork_slider_inner2 img {
+  border-radius: 20px 0px 20px 0;
+}
+.padd_rigth {
+  padding-right: 0;
+}
+.what-we-do {
+  background-size: contain;
+  background-position: top;
+  background-repeat: no-repeat;
+}
+.hmcount-bg {
+  background-size: auto;
+  background-position: bottom;
+  background-repeat: no-repeat;
+}
+.hoeitwork_slider_inner1 {
+  position: relative;
+}
+.hoeitwork_sliderspan {
+  font-family: Playfair Display;
+  font-weight: 400;
+  font-size: 130px;
+  line-height: 0;
+  letter-spacing: 0%;
+  color: transparent;
+  -webkit-text-stroke: 1px #888;
+  background-color: transparent;
+  position: absolute;
+  right: -30px;
+  top: -10px;
+}
+.hoeitwork_slider .heading {
+  white-space: wrap;
+}
+.what-we-do-btform_heading {
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 200;
+  font-size: 36px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 40px;
+  color: #fff;
+  opacity: 0.6;
+}
+.header-inner.scrollingbar .header-inner-2 a img {
+  width: auto;
+  height: 60px;
+}
+.hoeitwork_slider_inner1 {
+  flex: 0 0 50%;
+  max-width: 50%;
+}
+
+@keyframes marqueeltr {
+  0% {
+    transform: translateX(-50%);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.marquee-content:hover {
+  animation-play-state: paused;
+}
+
+.marquee-text {
+  display: inline-block;
+  padding-right: 40px;
+}
+
+@keyframes cubeOut {
+  0% {
+    transform: translateZ(0px) rotateY(0deg);
+    opacity: 1;
+  }
+
+  100% {
+    transform: translateZ(300px) rotateY(90deg);
+    opacity: 0;
+  }
+}
+.why_chose_schon .small-inpara {
+  max-width: 100%;
+}
+.row-inn-img-img.row-inn-img-img-mb {
+  display: none;
+}
+.row.row_product_space.row_product_space-mobile {
+  display: none;
+}
+.ourexistence_block_content h3 span a {
+  text-decoration: none;
+  color: #000;
+}
+.what-we-do.about-schon-we-do.about-schon-we-dopage {
+  padding-top: 100px;
+  background-size: contain;
+  background-position: top;
+  background-repeat: no-repeat;
+}
+.about-schon-we-do-img video {
+  width: 100%;
+  border-radius: 20px;
+  height: 680px;
+  object-fit: cover;
+  object-position: center;
+}
+.mision_vision {
+  padding: 0 80px 100px;
+}
+.mision_vision_head h3 {
+  font-family: Playfair Display;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: left;
+  color: #000;
+  margin-bottom: 24px;
+}
+.mision_vision_para p {
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  text-align: justify;
+  color: #000;
+}
+.row.mision_vision_row2 {
+  align-items: center;
+}
+.mision_vision_img img {
+  width: 100%;
+}
+.mision_vision_row2 {
+  align-items: center;
+  padding: 50px 60px;
+  border: 1px solid #000000;
+  border-radius: 10px;
+  width: 95%;
+  min-height: 295px;
+  display: flex;
+}
+.hmcount-bg.hmcount-bg_about {
+  padding-bottom: 80px;
+}
+.mision_vision_rowcl {
+  display: flex;
+  justify-content: end;
+}
+.team_members {
+  padding: 100px 80px;
+  background-size: contain;
+  background-position: top;
+  background-repeat: no-repeat;
+}
+.team_members_img img {
+  border-radius: 20px;
+}
+.row.team_members_row {
+  margin-top: 40px;
+}
+.contact_formfaq .card {
+  background: #00000099;
+  margin-top: 8px;
+  border-radius: 0;
+}
+.contact_formfaq .card-header {
+  font-family: Playfair Display;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-transform: capitalize;
+  color: #fff;
+  padding: 20px 24px;
+  border: 0;
+}
+.contact_formfaq_main {
+  padding: 50px 80px;
+}
+.contact_formfaq .card-body {
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  text-align: justify;
+  color: #fff;
+  margin: 0;
+  padding: 5px 24px 20px;
+  border: 0;
+}
+.contact_formfaq .card.active {
+  background: #212121;
+  border-radius: 20px 20px 0 00px;
+  border: 0;
+}
+.contact_formfaq .card .card-header {
+  position: relative;
+}
+.contact_formfaq .card .card-header::after {
+  position: absolute;
+  content: '+';
+  right: 10px;
+}
+.contact_formfaq .card.active .card-header::after {
+  content: '+';
+  transform: rotate(45deg);
+}
+.OurJourneymain {
+  padding: 100px 80px 100px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.OurJourneymain .para {
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.OurJourneymain .heading,
+.OurJourneymain .para {
+  color: #fff;
+}
+.OurJourneymainblock {
+  margin-top: 60px;
+}
+.OurJourneymainblock {
+  display: flex;
+  gap: 60px;
+  justify-content: center;
+}
+.OurJourneymaininner_content span {
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #fff;
+}
+.OurJourneymaininner_content {
+  width: 80px;
+  height: 80px;
+  background: #000;
+  border: 8px solid #d9d9d9;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+.OurJourneymaininner_para h3 {
+  font-family: Playfair Display;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: left;
+  color: #fff;
+  margin: 0;
+}
+.OurJourneymaininner_para p {
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  color: #fff;
+  margin: 12px 0 0 0;
+}
+.OurJourneymaininner {
+  flex: 0 0 20%;
+  max-width: 20%;
+}
+.OurJourneymaininner_img img {
+  width: 100%;
+}
+.OurJourneymaininner_para {
+  min-height: 275px;
+}
+.OurJourneymainblock {
+  flex-wrap: wrap;
+}
+.OurJourneymainblock
+  .OurJourneymaininner:nth-child(odd)
+  .OurJourneymaininner_para
+  h3 {
+  margin-top: 50px;
+}
+.OurJourneymainblock .OurJourneymaininner:nth-child(2n + 1) {
+  margin-top: 143px;
+}
+.OurJourneymain .container-fluid {
+  max-width: 1400px;
+}
+.what-we-do.product_listpage .para {
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+}
+.product_list_grid_block_sliderimg img {
+  border-radius: 20px;
+  width: 100%;
+  height: 380px;
+  object-fit: cover;
+}
+.product_list_grid {
+  padding: 0 80px 100px;
+}
+.product_list_grid_block_content h3 {
+  font-family: Playfair Display;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: justify;
+  color: #000;
+  margin: 0;
+}
+.product_list_grid_block_content h4 {
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  text-align: justify;
+  color: #000;
+  margin: 12px 0 24px;
+}
+.product_list_grid_block_content p {
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  text-align: justify;
+  margin: 0 0 24px 0;
+}
+.product_list_grid_block_sliderimg {
+  margin-bottom: 40px;
+}
+.product_list_grid_block {
+  padding: 30px;
+  border: 1px solid #000000;
+  border-radius: 20px;
+}
+.product_list_grid_block_slider {
+  position: relative;
+}
+.product_list_grid_block_slider
+  .product_list_grid_block_nav
+  .swiper-button-prev-custom,
+.product_list_grid_block_slider
+  .product_list_grid_block_nav
+  .swiper-button-next-custom {
+  background: #0000007a;
+  width: 58px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.product_list_grid_block_slider
+  .product_list_grid_block_nav
+  .swiper-button-prev-custom {
+  position: absolute;
+  right: -30px;
+  top: 38%;
+  z-index: 4;
+}
+.product_list_grid_block_slider
+  .product_list_grid_block_nav
+  .swiper-button-next-custom {
+  position: absolute;
+  left: -30px;
+  top: 38%;
+  z-index: 4;
+}
+.product_list_grid_block_nav {
+  display: flex;
+  justify-content: space-between;
+}
+.product_list_grid_block_slider
+  .product_list_grid_block_nav
+  .swiper-button-next-custom
+  img {
+  transform: rotate(180deg);
+}
+.product_list_grid_block_content .what-we-do-bt {
+  justify-content: start;
+}
+.product_list_grid_block {
+  padding: 30px;
+  border: 1px solid #000000;
+  border-radius: 20px;
+  width: 98%;
+}
+.row.row_product_list_grid .col-lg-6:nth-child(2n) .product_list_grid_block {
+  margin: 0 0 0 auto;
+}
+.row.row_product_list_grid {
+  gap: 54px 0;
+}
+.distinctive_Features_content h3 {
+  font-family: Playfair Display;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #000;
+  margin: 24px 0;
+}
+.distinctive_Features_content p {
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  margin: 0;
+}
+.distinctive_Features_icon img {
+  width: auto;
+  height: 64px;
+}
+.distinctive_Features {
+  padding: 0 80px 100px;
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
+}
+.row.row_distinctive_Features {
+  gap: 80px 0;
+  justify-content: center;
+  margin-top: 60px;
+}
+
+.cuttingedge-page {
+  padding: 100px 80px 100px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.cuttingedge-page .heading {
+  color: #fff;
+}
+.cuttingedge-page-img img {
+  width: 100%;
+}
+.row.row_cuttingedge-page {
+  margin: 64px 0 0 0;
+}
+.color_swatches {
+  padding: 100px 80px;
+}
+.color_swatches_sliderimg img {
+  width: 100%;
+  border-radius: 40px;
+}
+.color_swatches_slider {
+  margin-top: 48px;
+}
+.cuttingedge-page-img-mobile {
+  display: none;
+}
+.cuttingedge-page-img-mobile img {
+  width: 100%;
+}
+.product-specifications-slider
+  .product_list_grid_block_nav
+  .swiper-button-prev-custom,
+.product-specifications-slider
+  .product_list_grid_block_nav
+  .swiper-button-next-custom {
+  background: #0000007a;
+  width: 58px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.product-specifications-slider
+  .product_list_grid_block_nav
+  .swiper-button-prev-custom
+  img {
+  transform: rotate(180deg);
+}
+.product-specifications-slider {
+  position: relative;
+}
+.product-specifications-slider
+  .product_list_grid_block_nav
+  .swiper-button-next-custom {
+  position: absolute;
+  right: 0px;
+  top: 38%;
+  z-index: 4;
+}
+.product_specifications_block_sliderimg img {
+  width: 100%;
+}
+.product-specifications-slider
+  .product_list_grid_block_nav
+  .swiper-button-prev-custom {
+  position: absolute;
+  left: 0px;
+  top: 38%;
+  z-index: 4;
+}
+.smallpara {
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  text-align: justify;
+  margin: 24px 0;
+}
+.product-specifications-grid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.product-specifications-gridinner {
+  flex: 0 0 23%;
+  max-width: 23%;
+  border: 1px solid #000 !important;
+  padding: 20px 10px;
+}
+.listing {
+  padding: 0;
+  list-style: none;
+}
+
+.product-specifications-gridinner:nth-child(1),
+.product-specifications-gridinner:nth-child(2) {
+  border: 1px solid #000;
+}
+.what-we-do.product-specifications.product-specifications-neww {
+  padding-top: 0 !important;
+}
+.product-specifications-gridinner .heading {
+  width: 100%;
+}
+.product-specifications-gridinner .smallpara {
+  margin: 0;
+}
+.distinctive_Features_content ul {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.distinctive_Features_content ul li {
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  color: #000;
+}
+.product-specifications-gridcont .distinctive_Features_content h3 {
+  margin-top: 0;
+}
+.product-specifications-gridcont {
+  margin-top: 64px;
+}
+.product_specifications_block_sliderimg img {
+  width: 100%;
+  padding: 0 20px;
+}
+.distinctive_Features_icon.distinctive_Features_popular_typology img {
+  width: 100%;
+  height: auto;
+}
+.distinctive_Features_icon.distinctive_Features_popular_typology {
+  display: flex;
+  justify-content: center;
+}
+.distinctive_Features_content.distinctive_Features_popular_typology h3 {
+  text-align: center;
+}
+.cuttingedge-page.cuttingedge-page-we-offer .why_chose_schon_head h3,
+.cuttingedge-page.cuttingedge-page-we-offer .why_chose_schon_para p {
+  color: #fff;
+}
+.row.row_cuttingedge-page-we-offer {
+  justify-content: space-between;
+  margin-top: 64px;
+}
+.what-we-do.contactpage .distinctive_Features_icon img {
+  width: auto;
+  height: 180px;
+}
+.what-we-do.contactpage .distinctive_Features_block {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+.what-we-do.contactpage .distinctive_Features_content h3 {
+  margin: 0 0 24px 0;
+}
+.contactpage_blockcontant span,
+.contactpage_blockcontant span a {
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 200%;
+  letter-spacing: 0%;
+  color: #000;
+  text-decoration: none;
+}
+.contactpage_blockimg img {
+  width: 40px;
+  height: auto;
+}
+.contactpage_block {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.contactpage_blockcontantin {
+  display: flex;
+  gap: 0px 50px;
+  justify-content: start;
+  flex-wrap: wrap;
+}
+
+.contactpage_block.contactpage_block1 {
+  margin-top: 20px;
+}
+.color_swatches.popular_colours .color_swatches_sliderimg img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 18px;
+}
+.bloglistingdate span {
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 125%;
+  letter-spacing: 0%;
+  color: #000;
+}
+.bloglistingcontent h3 {
+  font-family: Playfair Display;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-transform: capitalize;
+  color: #000;
+  margin: 24px 0 12px;
+}
+.bloglistingcontent p {
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 200%;
+  letter-spacing: 0%;
+  text-transform: capitalize;
+  margin: 0;
+}
+.bloglistingdate {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.bloglisting_img img {
+  width: 100%;
+  border-radius: 8px;
+}
+.bloglisting_img {
+  margin-bottom: 24px;
+}
+.blog_listing {
+  padding: 100px 200px;
+}
+.blog_listing .row.blog_listing_row {
+  gap: 80px 0;
+}
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.pagination a.active {
+  color: #000;
+  text-decoration: none;
+  font-family: Campton;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  vertical-align: middle;
+}
+.pagination a {
+  color: #00000080;
+  text-decoration: none;
+  font-family: Campton;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  vertical-align: middle;
+}
+.page-mide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 18px;
+}
+.blog_listing .heading {
+  margin-bottom: 60px;
+}
+.contact_form .btn.btn-outline-secondary:hover {
+  background: #000;
+}
+.pagination {
+  margin-top: 60px;
+}
+.team_members_content h3 {
+  font-family: Playfair Display;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #ffff;
+  margin-bottom: 20px;
+}
+.team_members_content p {
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 125%;
+  letter-spacing: 0%;
+  margin: 0;
+  color: #fff;
+}
+.blog_listing {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.team_members_content {
+  position: absolute;
+  bottom: 0;
+  background: #1d1d1db2;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: end;
+  padding: 20px;
+  border-radius: 20px;
+  transition: all 0.5s ease-out;
+  opacity: 0;
+}
+.team_members_img img {
+  width: 100%;
+  border-radius: 20px;
+}
+.team_members_main {
+  position: relative;
+}
+.team_members_main:hover .team_members_content {
+  opacity: 1;
+}
+.what-we-do.blog_details .small-inpara {
+  max-width: 100%;
+  margin-bottom: 40px;
+  text-align: justify;
+}
+.what-we-do-blog .heading {
+  margin-bottom: 40px;
+}
+.what-we-do-blog .row.blog_listing_row {
+  gap: 40px;
+}
+.what-we-do-blog {
+  background: #efefef;
+  padding: 40px;
+  border-radius: 8px;
+  border: 1px solid #d0d0d0;
+}
+.what-we-do.similarblogsnews {
+  padding-top: 0;
+}
+.what-we-do.similarblogsnews .heading {
+  margin-bottom: 60px;
+}
+.banner-content-righting img {
+  border-radius: 20px;
+}
+.header-inner-4 span {
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 125%;
+  letter-spacing: 0%;
+  color: #fff;
+}
+.header-inner-4 {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.header-inner-4 img {
+  filter: brightness(1) invert(1);
+}
+.banner-content.banner-content-blog .banner-heading {
+  font-size: 64px;
+}
+.banner-content.banner-content-blog .banner-content-left {
+  flex: 0 0 45%;
+  max-width: 45%;
+}
+.banner-content.banner-content-blog .banner-content-righting img {
+  width: 100%;
+}
+.what-we-do.housing_solution .what-we-do-bt {
+  justify-content: start;
+  margin-top: 40px;
+}
+.why_chose_schon.why_chose_schononestep {
+  padding-top: 0;
+}
+.why_chose_schon.why_chose_schononestep .row.why_chose_schon_row {
+  margin: 0;
+}
+.about-schon-we-do-img iframe {
+  border-radius: 20px;
+  width: 100%;
+  height: 650px;
+}
+.row.why_chose_schon_row.why_chose_schon_row_new {
+  justify-content: center;
+}
+.our_solutions.our_solutions_certifications .para {
+  color: #fff;
+}
+.our_solutions.our_solutions_certifications .why_chose_schon_icon img {
+  width: auto;
+  height: 140px;
+  margin: 0 0 24px;
+}
+.our_solutions.our_solutions_certifications .our_solutions_block {
+  width: 90%;
+}
+.mision_vision_para p {
+  margin: 0;
+}
+.onestop img {
+  width: 100%;
+  border-radius: 20px;
+}
+.banner-container {
+  height: 90vh;
+}
+.banner-container .banner .banner-content .banner-content-left {
+  flex: 0 0 80%;
+  max-width: 80%;
+}
+.signlefaqlinkinner a {
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 100%;
+  padding: 16px 20px;
+  text-decoration: none;
+  border: 1px solid #000;
+  color: #000;
+}
+.signlefaqlinkinner {
+  display: flex;
+}
+.signlefaqlink {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin-bottom: 40px;
+}
+.signlefaqlinkinner a:hover {
+  background: #000;
+  color: #fff;
+}
+section.what-we-do.what-we-do-faqs .row-what-we-do-inner-2 {
+  height: 530px;
+}
+.faqsearch form input {
+  width: 100%;
+  padding: 35px 30px;
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 125%;
+  letter-spacing: 0%;
+  border: 0.5px solid #000000cc;
+  background: #fff;
+  border-radius: 8px;
+}
+.faqsearch form {
+  position: relative;
+}
+.faqsearch {
+  margin-top: 24px;
+}
+.faqsearch form button {
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 100%;
+  background: #000;
+  color: #fff;
+  padding: 16px 70px;
+  border: 0;
+  position: absolute;
+  right: 30px;
+  top: 24px;
+  height: 50px;
+}
+.OurJourneymainblockmb {
+  display: none;
+}
+section.OurJourneymain.OurJourneymaincta h2.heading,
+section.OurJourneymain.OurJourneymaincta .para {
+  text-align: left;
+}
+section.OurJourneymain.OurJourneymaincta .container-fluid {
+  max-width: 100%;
+}
+section.OurJourneymain.OurJourneymaincta {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+section.OurJourneymain.OurJourneymaincta
+  .what-we-do-bt
+  .header-inner-3
+  .header-btn {
+  background: transparent;
+  border: 1px solid #ffffff;
+}
+section.project_list.project_listing {
+  background-size: contain;
+  background-position: top;
+}
+section.project_list.project_listing h2.heading {
+  margin: 0;
+}
+.row.row_justify.blog_listing_row {
+  margin: 0 0 40px;
+  justify-content: center;
+}
+.blog_listing .faqsearch {
+  margin-top: 0;
+}
+.header-inner .header-btn {
+  background: transparent;
+}
+.header-inner .header-btn:hover {
+  background-color: #fff;
+}
+.modal-body .what-we-do-btform {
+  padding: 24px;
+}
+.modal-header .what-we-do-btform_heading {
+  margin: 0;
+}
+.modal-content .modal-header .close {
+  background: transparent;
+  border: 0;
+}
+.modal-content .modal-header .close span {
+  font-size: 32px;
+  display: inline-block;
+}
+.modal-body .what-we-do-btform .form-row .btn.btn-outline-secondary {
+  width: 100%;
+  padding: 16px;
+  color: #fff;
+  font-size: 18px;
+  background: #000;
+  border: 0;
+}
+.modal-body .what-we-do-btform {
+  padding: 24px;
+  border-radius: 8px;
+}
+.modal-header {
+  justify-content: space-between;
+}
+.siding-nav-link ul {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
+  gap: 24px;
+  justify-content: space-between;
+  width: 100%;
+  margin: 0;
+}
+.siding-nav-link div.nav-bt {
+  flex: inherit;
+  max-width: 100%;
+}
+.why_chose_schon_block.why_chose_schon_block_sus {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.what-we-do.housing_solution .why_chose_schon_block.why_chose_schon_block_sus {
+  align-items: flex-start;
+}
+.why_chose_schon_block.why_chose_schon_block_sus .why_chose_schon_head h3 {
+  margin-top: 0;
+}
+.why_chose_schon_block_sust {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.why_chose_schon_block.why_chose_schon_block_sus .why_chose_schon_icon_1 img {
+  width: 48px;
+  height: auto;
+}
+.why_chose_schon_block_sust {
+  margin-top: 40px;
+  max-width: 80%;
+}
+.banner-container .banner::after {
+  content: '';
+  position: absolute;
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0.49) 0%,
+    rgba(0, 0, 0, 0.78) 100%
+  );
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -2;
+}
+.banner-container .banner::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  background-image: url('/images/backgrounimagesss.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.Energy_Efficient
+  .why_chose_schon_block.why_chose_schon_block_sus
+  .why_chose_schon_icon_1
+  img {
+  width: 56px;
+  height: auto;
+}
+.what-we-do.housing_solution.Energy_Efficient {
+  background-size: cover;
+  background-position: center;
+}
+.Sustainable-Design .main-heading {
+  margin-bottom: 54px;
+}
+.why_chose_schon.why_chose_schononestep .row.why_chose_schon_row {
+  justify-content: center;
+}
+.row.row_cuttingedge-page-we-offer.row_cuttingedge-page-we-offersgd {
+  justify-content: center;
+  gap: 60px 0;
+}
+.why_chose_schon.why_chose_schononestep.why_chose_schononestep_quality {
+  padding-top: 100px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.onestop iframe {
+  width: 100%;
+  height: 480px;
+  object-fit: initial;
+  border-radius: 10px;
+}
+.what-we-do.housing_solution .small-para {
+  margin: 20px 0 0 0;
+}
+.what-we-do.housing_solution .small-para .small-inpara {
+  max-width: 100%;
+}
+.why_chose_schon.why_chose_schononestep
+  .row.why_chose_schon_row.why_chose_schon_row_ad {
+  margin-top: 60px;
+}
+.row.row_cuttingedge-page-we-offer.row_cuttingedge-page-we-offersgd
+  .why_chose_schon_icon
+  img {
+  filter: brightness(0) invert(1);
+}
+.header-social a img {
+  height: 40px;
+  opacity: 0.6;
+}
+.header-social a img:hover {
+  opacity: 1;
+}
+.our_solutions.our_solutions_certifications.why_chose_schon_para11
+  .row.our_solutions_row {
+  justify-content: center;
+}
+.our_solutions.our_solutions_certifications.why_chose_schon_para11
+  .why_chose_schon_icon {
+  text-align: center;
+}
+.our_solutions.our_solutions_certifications.why_chose_schon_para11
+  .why_chose_schon_para {
+  text-align: center;
+}
+.marquee-content.marquee-rtl {
+  display: none;
+}
+.banner-container.home-abbbhh .banner.active {
+  z-index: 1 !important;
+}
+.bloglisting.listingbar {
+  display: flex;
+  gap: 24px;
+}
+.bloglisting.listingbar {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+}
+.bloglisting.listingbar .bloglisting_img {
+  flex: 0 0 50%;
+  max-width: 50%;
+  margin: 0;
+  border: 1px solid #c3c2c1;
+  border-radius: 12px;
+}
+.row.row_pagination {
+  margin-top: 24px;
+}
+.row.row_justify.row_justify_haeding {
+  margin-top: 40px;
+}
+.row.row_justify.row_justify_haeding .heading {
+  margin: 0;
+  text-align: right;
+}
+.modal-header .what-we-do-btform_heading {
+  opacity: 1;
+  color: #000;
+}
+.row.row_justify.row_justify_blog {
+  justify-content: center;
+  margin-bottom: 60px;
+}
+.blog_listing .heading {
+  margin-bottom: 60px;
+  text-align: center;
+}
+.row.row_justify.row_justify_contactpage {
+  margin-bottom: 40px;
+}
+.siding-nav-link ul.dropdown-menu-links li {
+  flex: 0 0 100%;
+  max-width: 100%;
+  display: flex;
+}
+.siding-nav-link ul li .dropdown-menu-links li a {
+  text-align: left;
+}
+.bloglistingcontentaa a {
+  text-decoration: none;
+}
+.bloglistingcontentaa a p img {
+  filter: brightness(0) invert(0);
+  width: 16px;
+  margin-left: 5px;
+}
+.small-para.smalllahh .small-inpara {
+  text-align: center;
+  margin-top: 40px;
+}
+.cuttingedge-page.cuttingedge-page-we-offer.cuttingedge-page-we-offer1
+  .why_chose_schon_para
+  a {
+  color: #fff;
+  text-decoration: none;
+}
+.cuttingedge-page.cuttingedge-page-we-offer.cuttingedge-page-we-offer1
+  .why_chose_schon_icon_1
+  img {
+  width: auto;
+  height: 100px;
+}
+.row.row_cuttingedge-page-we-offer.row_cuttingedge-page-we-offersgd
+  .why_chose_schon_block_sust {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.row.row_cuttingedge-page-we-offer.row_cuttingedge-page-we-offersgd
+  .why_chose_schon_block_sust {
+  max-width: 100%;
+}
+.row.why_chose_schon_row.why_chose_schon_row_ad.hy_chose_schon_row_ad-new {
+  justify-content: center;
+}
+.row.row_cuttingaaaz h3 {
+  margin-top: 0;
+}
+.row.row_cuttingaaaz {
+  padding: 20px 40px;
+  background: #fff;
+  border-radius: 8px;
+  margin-top: 64px;
+}
+.row.row_cuttingaaaz .why_chose_schon_head h3 {
+  color: #000;
+  text-align: center;
+}
+.row.row_cuttingaaaz .why_chose_schon_para p {
+  color: #000;
+  text-align: center;
+}
+.row.row_cuttingedge-page-we-offer.row_cuttingedge-page-we-offersgd.row_cuttingedge-page-we-offersgddd
+  .why_chose_schon_block_sust {
+  margin: 0;
+}
+.arrow-down {
+  filter: brightness(0) invert(1);
+  width: 24px;
+  height: 24px;
+  transform: rotate(90deg);
+  position: absolute;
+  right: 0;
+  display: none;
+}
+.siding-nav-link ul li .dropdown-menu-links li a img {
+  width: 28px;
+  height: 28px;
+  opacity: 0.5;
+  position: relative;
+  top: -2px;
+}
+.siding-nav-link ul li .tab-content .nav-bt {
+  font-size: 18px;
+  color: #cdcdcd;
+}
+
+.siding-nav-link .dropdown-menu-links.dropdown-menu-linksiafg ul li a {
+  padding: 20px;
+}
+.siding-nav-link .dropdown-menu-links.dropdown-menu-linksiafg ul.adseaa {
+  gap: 0;
+  flex: 0 0 30%;
+  max-width: 30%;
+}
+.siding-nav-link ul li .dropdown-menu-links.dropdown-menu-linksiafg {
+  width: 767px;
+}
+.siding-nav-link .dropdown-menu-links.dropdown-menu-linksiafg .tab-content {
+  padding: 20px;
+}
+.siding-nav-link ul li .dropdown-menu-links.dropdown-menu-linksiafg li,
+.siding-nav-link ul li .dropdown-menu-links.dropdown-menu-linksiafg li a {
+  width: 100%;
+  float: left;
+}
+.siding-nav-link
+  ul
+  li
+  .dropdown-menu-links.dropdown-menu-linksiafg
+  .tab-content
+  ul {
+  gap: 24px 20px;
+}
+.siding-nav-link
+  ul
+  li
+  .dropdown-menu-links.dropdown-menu-linksiafg
+  .tab-content
+  ul
+  li
+  a {
+  padding: 0;
+}
+.siding-nav-link
+  ul
+  li
+  .dropdown-menu-links.dropdown-menu-linksiafg
+  .tab-content
+  ul
+  li {
+  flex: 0 0 47%;
+  max-width: 47%;
+}
+.siding-nav-link ul li .tab-content .nav-bt:hover {
+  color: #cfcfcf;
+}
+.siding-nav-link
+  ul
+  li
+  .dropdown-menu-links.dropdown-menu-linksiafg
+  li.active
+  a {
+  background: #141414;
+  color: #fff;
+}
+.siding-nav-link .dropdown-menu-links.dropdown-menu-linksiafg .tab-content {
+  background: #141414;
+}
+.siding-nav-link ul li .dropdown-menu-links.dropdown-menu-linksiafg {
+  padding: 0 !important;
+}
+.siding-nav-link .dropdown-menu-links.dropdown-menu-linksiafg .tab-content {
+  height: 390px;
+}
+.siding-nav-link .dropdown-menu-links.dropdown-menu-linksiafg .tab-content {
+  max-width: 70%;
+  flex: 0 0 70%;
+}
+.siding-nav-link .dropdown-toggle::after {
+  vertical-align: 0.255em;
+  content: '';
+  border: 5px solid #0000;
+  border-top-color: currentColor;
+  border-bottom: 0;
+  margin-left: 0;
+  display: inline-block;
+}
+.siding-nav-link ul li {
+  position: relative;
+  margin: auto 0;
+}
+.siding-nav-link a.nav-bt {
+  padding: 20px 0;
+}
+.header-social-btn {
+  margin-top: 300px;
+}
+a.blog-listingbtn {
+  background: #000;
+  padding: 12px 20px;
+  border-radius: 8px;
+  color: #fff;
+}
+.blog-listingbtngg {
+  display: flex;
+  margin-top: 24px;
+}
+.what-we-do.housing_solution.Energy_Efficient.Sustainable-Design
+  .para.text-white.text-center {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.what-we-do.housing_solution.Energy_Efficient.Sustainable-Design
+  .para.text-center {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.product-specifications-gridinner .para {
+  font-size: 20px;
+}
+.product-specifications-gridinner .smallpara {
+  margin: 0;
+  font-size: 16px;
+  min-height: 80px;
+}
+.product_list_grid_block_nav {
+  display: none;
+}
+
+/*  start responsive */
+
+@media (max-width: 1870px) {
+  .hoeitwork_slider .heading {
+    font-size: 40px;
+  }
+  .count-title {
+    font-size: 40px !important;
+  }
+}
+
+@media (max-width: 1600px) {
+  .banner-heading {
+    font-size: 80px;
+  }
+  /* .bloglisting_img img {
+    height: 400px;
+    object-fit: cover;
+  } */
+  .siding-nav-link ul li .dropdown-menu-links.dropdown-menu-linksiafg {
+    flex-direction: row;
+  }
+  .siding-nav-link ul li .dropdown-menu-links.dropdown-menu-linksiafg {
+    width: 600px;
+  }
+  .siding-nav-link ul li .dropdown-menu-links li a img {
+    width: 24px;
+    height: 24px;
+  }
+  .mision_vision_head h3 {
+    font-size: 28px;
+  }
+  .mision_vision_para p {
+    font-size: 18px;
+  }
+  .our_solutions.our_solutions_certifications .why_chose_schon_icon img {
+    height: 120px;
+  }
+  .hoeitwork_sliderspan {
+    font-size: 124px;
+  }
+  .banner-content.banner-content-blog .banner-heading {
+    font-size: 50px;
+  }
+  .row.row_distinctive_Features {
+    margin-top: 40px;
+  }
+  .siding-nav-link a.nav-bt,
+  .siding-nav-link div.nav-bt {
+    font-size: 28px;
+  }
+  .blog_listing {
+    padding: 100px 150px;
+  }
+  .product_list_grid_block_content h3 {
+    font-size: 28px;
+  }
+  .product_list_grid_block_content h4 {
+    font-size: 20px;
+  }
+  .product_list_grid_block_content p {
+    font-size: 18px;
+  }
+  .distinctive_Features_content h3 {
+    font-size: 28px;
+  }
+  .siding-nav-link {
+    gap: 32px;
+    margin-bottom: 100px;
+    margin-top: 40px;
+    margin-right: 20px;
+  }
+  .siding-nav-link ul li .dropdown-menu-links li a {
+    font-size: 18px;
+  }
+  .siding-nav-link ul li .dropdown-menu-links {
+    flex-direction: column;
+    align-items: start;
+    top: 60px;
+    width: 320px;
+  }
+  .nav-logo img {
+    width: auto;
+    height: 60px;
+  }
+  .sidenav .cross-btn img {
+    width: 32px;
+    height: auto;
+  }
+  .header-inner-bottom {
+    margin-right: 20px;
+  }
+  .banner-para {
+    font-size: 40px;
+  }
+  .header-inner-bottom-flag-1 span,
+  .header-inner-bottom-flag-2 span {
+    font-size: 28px;
+  }
+  .header-inner-bottom-flag-1 img,
+  .header-inner-bottom-flag-2 img {
+    width: auto;
+    height: 24px;
+  }
+  .header-inner-bottom-1 p,
+  .header-inner-bottom-2 p {
+    font-size: 24px;
+  }
+  .header-social {
+    padding: 32px 0;
+  }
+
+  .header-social-btn {
+    margin-top: 300px;
+  }
+  .header-inner-bottom {
+    gap: 24px;
+  }
+  .banner-content-inner img {
+    width: 70px;
+    height: auto;
+  }
+  .heading {
+    font-size: 42px;
+  }
+  .para {
+    font-size: 24px;
+  }
+  .row-what-we-do-inner-1 li a.active {
+    font-size: 36px;
+  }
+  .row-what-we-do-inner-1 li a {
+    font-size: 28px;
+  }
+  .small-inpara {
+    font-size: 18px;
+  }
+  .hoeitwork {
+    padding: 100px 0 100px 80px;
+  }
+  .count-title {
+    font-size: 32px !important;
+  }
+  .count-text {
+    font-size: 16px !important;
+  }
+  .what-we-do.home-bar-cta .heading {
+    font-size: 50px;
+  }
+  .what-we-do.home-bar-cta .para {
+    font-size: 32px;
+  }
+  .hoeitwork_slider .para {
+    font-size: 20px;
+  }
+  .product_listing_content h3 {
+    font-size: 28px;
+  }
+  .header-btn {
+    padding: 12px 24px;
+  }
+  .header-btn img {
+    margin-left: 6px;
+  }
+  .why_chose_schon_head h3 {
+    font-size: 28px;
+  }
+  .why_chose_schon_para p {
+    font-size: 18px;
+  }
+  .testimonialsmain .heading {
+    margin: 0;
+  }
+  .testimonials-inner-1 img {
+    width: 75px;
+    height: 75px;
+  }
+  .testimonials-inner-2 h3 {
+    font-size: 18px;
+  }
+  .contact_logo img {
+    width: 300px;
+    height: auto;
+  }
+  .ourexistence_block_content h3 {
+    font-size: 24px;
+  }
+  .hmcount-bg {
+    padding: 0 80px 100px;
+  }
+}
+
+@media (max-width: 1455px) {
+  .header-inner-2 a img {
+    width: auto;
+    height: 70px;
+  }
+  .what-we-do.about-schon-we-do.about-schon-we-dopage {
+    padding-top: 70px;
+  }
+  .banner-content.banner-content-blog .banner-heading {
+    font-size: 44px;
+  }
+  .blog_listing {
+    padding: 70px 100px;
+  }
+  .blog_listing .heading {
+    margin-bottom: 40px;
+  }
+  .pagination {
+    margin-top: 40px;
+  }
+  .blog_listing .row.blog_listing_row {
+    gap: 40px 0;
+  }
+  .product-specifications-gridcont {
+    margin-top: 48px;
+  }
+  .distinctive_Features_content ul {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  .contact_formfaq_main {
+    padding: 40px;
+  }
+  .contact_formfaq .card-header {
+    font-size: 20px;
+  }
+  .contact_formfaq .card-body {
+    font-size: 18px;
+  }
+  .header-social {
+    gap: 24px;
+  }
+  .product_list_grid_block {
+    width: 100%;
+  }
+  .row.row_product_list_grid {
+    gap: 24px 0;
+  }
+  .product_list_grid {
+    padding: 0 50px 70px;
+  }
+  .distinctive_Features {
+    padding: 0 50px 70px;
+  }
+  .cuttingedge-page {
+    padding: 70px 50px;
+  }
+  .color_swatches {
+    padding: 70px 50px;
+  }
+  .sidenav .header-social a img {
+    width: auto;
+    height: 28px;
+  }
+  .siding-nav-link a.nav-bt,
+  .siding-nav-link div.nav-bt {
+    font-size: 20px;
+  }
+  .sidenav .header-social a {
+    padding: 0;
+  }
+  .our_solutions .why_chose_schon_icon img {
+    width: auto;
+    height: 150px;
+  }
+  .banner-container .banner {
+    padding: 100px 50px 50px 50px;
+  }
+  .what-we-do {
+    padding: 70px 50px;
+  }
+  .row-what-we-do {
+    margin-top: 50px;
+  }
+  .row-what-we-do-inner-1 li a {
+    padding-bottom: 24px;
+  }
+  .inner-wedo-para p {
+    font-size: 20px;
+    margin-top: 16px;
+  }
+  .row-what-we-do-inner-2 {
+    height: 560px;
+  }
+  .heading {
+    font-size: 36px;
+  }
+  .para {
+    font-size: 20px;
+  }
+  .what-we-do.home-bar-cta .heading {
+    font-size: 42px;
+  }
+  .what-we-do.home-bar-cta .para {
+    font-size: 28px;
+  }
+  .hmcount-bg {
+    padding: 0 50px 70px;
+  }
+  .hoeitwork {
+    padding: 70px 0 70px 50px;
+  }
+  .hoeitwork_slider .heading {
+    font-size: 32px;
+  }
+  .hoeitwork_sliderspan {
+    font-size: 120px;
+  }
+  .hoeitwork_slider .para {
+    font-size: 18px;
+  }
+  .row.row_product_space {
+    gap: 30px 0;
+    margin-top: 40px;
+  }
+  .why_chose_schon_head h3 {
+    font-size: 24px;
+  }
+  .why_chose_schon_para p {
+    font-size: 16px;
+  }
+  .row.why_chose_schon_row {
+    margin: 40px 0 0 0;
+    gap: 40px 0;
+  }
+  .why_chose_schon {
+    padding: 70px 50px;
+  }
+  .our_solutions {
+    padding: 70px 50px;
+  }
+  .testimonials-icon img {
+    height: 36px;
+    width: auto;
+  }
+  .contact_logo img {
+    width: 220px;
+    height: auto;
+  }
+  .contact_form_gsf {
+    gap: 32px;
+    padding: 0 0 0 120px;
+  }
+  .what-we-do-btform {
+    padding: 60px 120px 60px 50px;
+  }
+  .footer_2 h3 {
+    font-size: 24px;
+  }
+  .footer .footer_logo img {
+    width: 160px;
+    height: auto;
+  }
+  .footer_2 ul li,
+  .footer_2 ul li a {
+    font-size: 16px;
+  }
+  .ourexistence {
+    padding: 70px 0;
+    background-repeat: no-repeat;
+  }
+  .banner-para {
+    font-size: 36px;
+  }
+  .what-we-do.about-schon-we-do {
+    padding: 0 50px;
+  }
+  .what-we-do.home-bar-cta {
+    padding: 40px 50px;
+  }
+  .testimonialsmain {
+    padding: 70px 50px;
+  }
+  .what-we-do-btform_heading {
+    font-size: 24px;
+    margin-bottom: 24px;
+  }
+  .Client_list .row.row_justify {
+    padding: 0 50px;
+  }
+  .footer {
+    padding: 70px 0 0px;
+  }
+  .row.row_cuttingedge-page {
+    margin: 32px 0 0 0;
+  }
+  .color_swatches_slider {
+    margin-top: 24px;
+  }
+  .mision_vision_row2 {
+    padding: 32px;
+    width: 100%;
+    min-height: 200px;
+  }
+  .OurJourneymaininner_para h3 {
+    font-size: 28px;
+  }
+  .mision_vision {
+    padding: 0 70px 50px;
+  }
+  .hmcount-bg.hmcount-bg_about {
+    padding-bottom: 50px;
+  }
+  .OurJourneymain {
+    padding: 50px 70px;
+  }
+  .team_members {
+    padding: 50px 70px;
+  }
+  .OurJourneymaininner_para p {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 1366px) {
+  .banner-heading {
+    font-size: 64px;
+  }
+  .cuttingedge-page.cuttingedge-page-we-offer.cuttingedge-page-we-offer1
+    .why_chose_schon_icon_1
+    img {
+    width: auto;
+    height: 50px;
+  }
+  .siding-nav-link ul li .dropdown-menu-links {
+    top: 50px;
+  }
+  .OurJourneymaininner_para {
+    min-height: 182px;
+  }
+  .mision_vision_row2 {
+    min-height: 270px;
+  }
+  .our_solutions.our_solutions_certifications .why_chose_schon_icon img {
+    height: 100px;
+  }
+  .what-we-do.similarblogsnews .heading {
+    margin-bottom: 40px;
+  }
+  .banner-content.banner-content-blog .banner-heading {
+    font-size: 36px;
+  }
+  .what-we-do.similarblogsnews .row.blog_listing_row {
+    gap: 40px 0;
+  }
+  .what-we-do.contactpage .distinctive_Features_icon img {
+    width: auto;
+    height: 130px;
+  }
+  .blog_listing {
+    padding: 70px 50px;
+  }
+  .product_list_grid_block_content h3 {
+    font-size: 24px;
+  }
+
+  .row.row_cuttingedge-page-we-offer {
+    justify-content: space-between;
+    margin-top: 40px;
+  }
+  .product_list_grid_block_content h4 {
+    font-size: 18px;
+  }
+  .product_list_grid_block_content p {
+    font-size: 16px;
+  }
+  .distinctive_Features_content h3 {
+    font-size: 24px;
+  }
+  .distinctive_Features_content p {
+    font-size: 18px;
+  }
+  .distinctive_Features_icon img {
+    width: auto;
+    height: 54px;
+  }
+  .siding-nav-link {
+    gap: 24px;
+  }
+  .header-inner-bottom-1 p,
+  .header-inner-bottom-2 p {
+    font-size: 20px;
+  }
+  .header-inner-bottom-flag-1 span,
+  .header-inner-bottom-flag-2 span {
+    font-size: 24px;
+  }
+  .banner-para {
+    font-size: 32px;
+  }
+  .header-inner-2 a img {
+    width: auto;
+    height: 60px;
+  }
+  .row-what-we-do-inner-1 li a.active {
+    font-size: 28px;
+  }
+  .row-what-we-do-inner-1 li a {
+    font-size: 24px;
+  }
+  .row-what-we-do-inner-1 li a {
+    padding-bottom: 20px;
+  }
+  .row-what-we-do-inner-1 ul {
+    gap: 20px;
+  }
+  .row-what-we-do-inner-2 {
+    height: 520px;
+  }
+  .hoeitwork_slider .heading {
+    font-size: 28px;
+  }
+  .heading {
+    font-size: 32px;
+  }
+  .project_list {
+    padding: 70px 50px;
+  }
+  .product_listing_content h3 {
+    font-size: 24px;
+  }
+  .product_listing_content {
+    padding: 20px;
+  }
+  .why_chose_schon_icon img {
+    width: auto;
+    height: 50px;
+  }
+  .why_chose_schon_head h3 {
+    font-size: 24px;
+    margin: 16px 0;
+  }
+  .what-we-do-btform input,
+  .what-we-do-btform textarea {
+    font-size: 16px;
+    padding: 14px;
+  }
+  .ourexistence_block_content h3 {
+    font-size: 20px;
+  }
+  .product_listing_content p {
+    font-size: 16px;
+  }
+  .contact_form .btn.btn-outline-secondary {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 1299px) {
+  .siding-nav-link ul li .dropdown-menu-links {
+    width: 320px;
+    top: 50px;
+  }
+  .siding-nav-link ul li .dropdown-menu-links.dropdown-menu-linksiafg {
+    left: -150px;
+  }
+  .siding-nav-link .dropdown-menu-links.dropdown-menu-linksiafg ul li a {
+    padding: 10px;
+  }
+  .siding-nav-link .dropdown-menu-links.dropdown-menu-linksiafg .tab-content {
+    height: 260px;
+  }
+  .count-text {
+    min-height: 60px !important;
+  }
+  .siding-nav-link {
+    margin-bottom: 50px;
+  }
+  .siding-nav-link ul li .dropdown-menu-links {
+    width: 320px;
+    top: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 10px;
+    z-index: 1;
+  }
+  .product-specifications-gridinner {
+    flex: 0 0 30%;
+    max-width: 30%;
+  }
+}
+
+@media (max-width: 991px) {
+  .banner-heading {
+    font-size: 50px;
+  }
+  .siding-nav-link ul li .dropdown-menu-links {
+    top: 50px;
+  }
+  .what-we-do.about-schon-we-do.about-schon-we-doags {
+    background: #eaeaea;
+    padding-top: 30px;
+  }
+  .siding-nav-link .dropdown-menu-links.dropdown-menu-linksiafg ul.adseaa li {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .siding-nav-link ul li .dropdown-menu-links.dropdown-menu-linksiafg {
+    left: -300px;
+  }
+  .siding-nav-link ul li .dropdown-menu-links li a img {
+    width: 20px;
+    height: 20px;
+    opacity: 0.5;
+    position: relative;
+    top: -1px;
+  }
+  .product_specifications_block_sliderimg img {
+    padding: 0 !important;
+    margin-bottom: 24px;
+    border-radius: 20px;
+  }
+  .siding-nav-link .dropdown-toggle::after {
+    display: none;
+  }
+  .arrow-down {
+    display: block;
+  }
+  .row.row_cuttingedge-page-we-offer.row_cuttingedge-page-we-offersgd.row_cuttingedge-page-we-offersgddd
+    .why_chose_schon_block.why_chose_schon_block_sus {
+    flex: 0 0 30%;
+    max-width: 30%;
+  }
+  .siding-nav-link ul li .dropdown-menu-links {
+    width: 260px;
+  }
+  .about-schon-we-do-img iframe {
+    border-radius: 20px;
+    width: 100%;
+    height: 300px;
+  }
+  .banner-container .banner .banner-content .banner-content-left {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .banner-container.home-abbbhh .banner-content {
+    flex-direction: row;
+  }
+  .banner-container.home-abbbhh .banner-content-right {
+    gap: 20px;
+    display: flex;
+    flex-direction: revert;
+    align-items: center;
+    margin-top: 16px;
+  }
+  .siding-nav-link ul {
+    justify-content: flex-start;
+  }
+  .siding-nav-link ul li {
+    flex: 0 0 25%;
+    max-width: 25%;
+    text-align: left;
+  }
+  .OurJourneymainblockmb {
+    display: none;
+  }
+  .OurJourneymainblockmb {
+    display: block;
+  }
+  .what-we-do.about-schon-we-do.about-schon-we-dopage {
+    padding-top: 50px;
+  }
+  .row.mision_vision_row3 {
+    flex-direction: column;
+    gap: 24px;
+  }
+  .mision_vision_img img {
+    width: auto;
+    height: 130px;
+  }
+  .row.mision_vision_row1 {
+    gap: 24px;
+  }
+  .mision_vision {
+    padding: 0 20px 50px;
+  }
+  .hmcount-bg .wrapper .counter.col_fourth {
+    margin: 0;
+  }
+  .team_members {
+    padding: 50px 20px;
+  }
+  .row.team_members_row {
+    gap: 24px 0;
+    justify-content: center;
+  }
+  .our_solutions.our_solutions_certifications .our_solutions_block {
+    width: 100%;
+  }
+  .our_solutions.our_solutions_certifications .why_chose_schon_icon img {
+    height: 70px;
+  }
+  .what-we-do-blog {
+    padding: 20px;
+  }
+  .banner-content.banner-content-blog .banner-heading {
+    font-size: 32px;
+  }
+  .banner-content.banner-content-blog .banner-content-left {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .banner-content {
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+  }
+  .banner-content.banner-content-blog .banner-content-righting img {
+    width: 50%;
+  }
+  .banner-content-righting {
+    display: flex;
+    justify-content: center;
+  }
+  .banner-content.banner-content-blog .banner-heading {
+    text-align: center;
+  }
+  .banner-content.banner-content-blog .banner-para {
+    text-align: center;
+  }
+  .header-inner-4 {
+    justify-content: center;
+  }
+  .blog_listing {
+    padding: 50px 20px;
+  }
+  .OurJourneymaininner {
+    gap: 16px;
+  }
+  .what-we-do.contactpage .distinctive_Features_icon img {
+    width: auto;
+    height: 100px;
+  }
+  .row.row_cuttingedge-page-we-offer {
+    justify-content: space-between;
+    margin-top: 40px;
+    gap: 40px;
+  }
+  .cuttingedge-page.cuttingedge-page-we-offer .heading {
+    text-align: left !important;
+    margin: 0;
+  }
+  .distinctive_Features.distinctive_Featurespt .heading {
+    text-align: center !important;
+    margin: 0;
+  }
+  .contact_formfaq .card.active .card-header .card-link {
+    font-size: 24px;
+  }
+  .contact_formfaq .card .card-header .card-link {
+    font-size: 20px;
+  }
+  .distinctive_Features_icon img {
+    width: auto;
+    height: 50px;
+  }
+  .about-schon-we-do-img video {
+    height: auto;
+  }
+  .distinctive_Features_content h3 {
+    font-size: 20px;
+    margin: 12px 0;
+  }
+  .product_list_grid {
+    padding: 0 20px 50px;
+  }
+  .product_list_grid_block_sliderimg img {
+    height: 200px;
+  }
+  .product_list_grid_block_slider
+    .product_list_grid_block_nav
+    .swiper-button-prev-custom,
+  .product_list_grid_block_slider
+    .product_list_grid_block_nav
+    .swiper-button-next-custom {
+    width: 34px;
+    height: 28px;
+  }
+  .product_list_grid_block_slider .product_list_grid_block_nav img {
+    width: auto;
+    height: 12px;
+  }
+  .product_list_grid_block {
+    padding: 20px;
+  }
+  .product_list_grid_block_slider
+    .product_list_grid_block_nav
+    .swiper-button-next-custom {
+    position: absolute;
+    left: -20px;
+    top: 34%;
+    z-index: 4;
+  }
+  .product_list_grid_block_slider
+    .product_list_grid_block_nav
+    .swiper-button-prev-custom {
+    position: absolute;
+    right: -20px;
+    top: 34%;
+    z-index: 4;
+  }
+  .row.row_distinctive_Features {
+    gap: 40px 0;
+    justify-content: center;
+    margin-top: 40px;
+  }
+  .distinctive_Features {
+    padding: 0 20px 50px;
+  }
+  .distinctive_Features_content p {
+    font-size: 16px;
+  }
+  .sidenav .nav-logo {
+    text-align: left;
+    padding: 10px 20px;
+  }
+  .siding-nav-link {
+    gap: 32px;
+    margin-bottom: 32px;
+    margin-top: 32px;
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+  .header-inner-bottom {
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+  .header-social {
+    margin-left: 20px;
+  }
+  .header-social-btn {
+    display: flex;
+    margin-left: 20px;
+    margin-top: 0;
+  }
+  .header-inner-bottom-flag-1 span,
+  .header-inner-bottom-flag-2 span {
+    font-size: 18px;
+    text-align: left;
+  }
+  .header-inner-bottom-flag-1 img,
+  .header-inner-bottom-flag-2 img {
+    width: auto;
+    height: 20px;
+  }
+  .header-inner-bottom-flag-1,
+  .header-inner-bottom-flag-2 {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  }
+  .header-inner-bottom {
+    gap: 10px;
+  }
+  .OurJourneymainblockds {
+    display: none;
+  }
+  .OurJourneymainblock.OurJourneymainblockmb {
+    display: block;
+  }
+  .banner-para {
+    font-size: 24px;
+    margin: 16px 0 24px;
+  }
+  .banner-content-right {
+    gap: 20px;
+  }
+  .banner-content-inner img {
+    width: 50px;
+    height: auto;
+  }
+  .banner-container {
+    position: relative;
+    width: 100%;
+    height: 80vh;
+    overflow: hidden;
+  }
+  .OurJourneymaininner_content {
+    width: 70px;
+    height: 70px;
+    border: 4px solid #d9d9d9;
+    margin: inherit;
+    max-width: 70px;
+    flex: 0 0 70px;
+  }
+  .team_members_content h3 {
+    font-size: 32px;
+  }
+  .OurJourneymainblock .OurJourneymaininner:nth-child(2n + 1) {
+    margin-top: 0;
+  }
+  .team_members_content p {
+    font-size: 16px;
+  }
+  .OurJourneymainblock
+    .OurJourneymaininner:nth-child(2n + 1)
+    .OurJourneymaininner_para
+    h3 {
+    margin-top: 0;
+  }
+  .OurJourneymainblock {
+    flex-wrap: wrap;
+  }
+  .OurJourneymaininner_para h3 {
+    font-size: 24px;
+  }
+  .OurJourneymainblock {
+    gap: 0;
+  }
+  .OurJourneymaininner_add {
+    display: flex;
+    align-items: center;
+  }
+  .OurJourneymaininner {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+  }
+  .OurJourneymain.OurJourneymainnew {
+    padding: 40px 0;
+  }
+  .OurJourneymaininner_add {
+    display: flex;
+    align-items: center;
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+  .OurJourneymaininner_para {
+    min-height: auto;
+  }
+  .OurJourneymaininner {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .banner-container .banner {
+    padding: 50px 20px 00px 20px;
+  }
+  .header-inner {
+    padding: 20px 20px;
+  }
+  .what-we-do {
+    padding: 50px 20px;
+  }
+  .row.row_justify {
+    gap: 24px;
+  }
+  .what-we-do-bt {
+    display: flex;
+    justify-content: start;
+  }
+  .what-we-do.about-schon-we-do {
+    padding: 0 20px;
+  }
+  .about-schon-we-do-img {
+    margin: 40px 0;
+  }
+  .hmcount-bg {
+    padding: 0 20px 50px;
+  }
+  .what-we-do.home-bar-cta {
+    padding: 40px 20px;
+  }
+  .hoeitwork {
+    padding: 50px 0 50px 20px;
+  }
+  .project_list {
+    padding: 50px 20px;
+  }
+  .why_chose_schon {
+    padding: 50px 20px;
+  }
+  .our_solutions {
+    padding: 50px 20px;
+  }
+  .our_solutions .why_chose_schon_icon img {
+    width: auto;
+    height: 100px;
+  }
+  .row.our_solutions_row {
+    margin: 40px 0 0 0;
+    gap: 32px 0;
+  }
+  .Client_list {
+    padding: 50px 0;
+  }
+  .Client_list .row.row_justify {
+    padding: 0 20px;
+  }
+  .marquee-container {
+    gap: 24px;
+    margin-top: 32px;
+  }
+  .testimonialsmain .row.row_justify {
+    margin-bottom: 32px;
+  }
+  .testimonialsmain {
+    padding: 50px 20px;
+  }
+  .contact_form_gsf {
+    gap: 24px;
+    padding: 0;
+  }
+  .contact_form {
+    padding: 50px 0;
+  }
+  .what-we-do-btform {
+    padding: 50px;
+  }
+  .contact_form_gsf {
+    gap: 24px;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+  }
+  .contact_form .heading {
+    color: #fff;
+    line-height: 125%;
+    margin: 0;
+  }
+  .ourexistence_block_img img {
+    height: 100px;
+    width: auto;
+    margin-bottom: 16px;
+  }
+  .ourexistence_block_content h3 {
+    font-size: 18px;
+  }
+  .ourexistence {
+    padding: 50px 0;
+    background-repeat: no-repeat;
+  }
+  .footer {
+    padding: 50px 0 0px;
+  }
+  .row.footer_row {
+    gap: 24px 0;
+  }
+  .cuttingedge-page {
+    padding: 50px 20px;
+  }
+  .color_swatches {
+    padding: 50px 20px;
+  }
+  .color_swatches_slider {
+    margin-top: 12px;
+  }
+}
+
+@media (max-width: 767px) {
+  .header-inner .header-inner-3 {
+    display: none;
+  }
+  .product_listing.product_listing_data .product_listing_img img {
+    height: 250px;
+  }
+  .product-specifications-gridinner .smallpara {
+    min-height: auto;
+  }
+  .product-specifications-gridinner {
+    border: 1px solid #000 !important;
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .siding-nav-link a.nav-bt {
+    padding: 0;
+  }
+  .siding-nav-link ul li .dropdown-menu-links.dropdown-menu-linksiafg {
+    left: 0px;
+  }
+  .siding-nav-link ul li .dropdown-menu-links.dropdown-menu-linksiafg {
+    width: 100%;
+  }
+  .siding-nav-link ul li .tab-content .nav-bt {
+    font-size: 16px;
+  }
+  .siding-nav-link ul li {
+    text-align: left;
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .row.row_cuttingedge-page-we-offer.row_cuttingedge-page-we-offersgd.row_cuttingedge-page-we-offersgddd
+    .why_chose_schon_block_sust {
+    margin: 0;
+    flex-wrap: wrap;
+  }
+  .row.row_cuttingaaaz {
+    margin-top: 30px;
+    padding: 20px;
+  }
+  .row.row_cuttingedge-page-we-offer.row_cuttingedge-page-we-offersgd.row_cuttingedge-page-we-offersgddd
+    .why_chose_schon_block.why_chose_schon_block_sus {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .faqsearch form button {
+    padding: 12px 20px;
+  }
+  .bloglisting.listingbar {
+    flex-wrap: wrap;
+  }
+  .siding-nav-link ul li .dropdown-menu-links {
+    top: 10px;
+    position: relative;
+  }
+  .siding-nav-link ul li .dropdown-menu-links li a {
+    font-size: 16px;
+  }
+  .why_chose_schon_block_sust {
+    max-width: 100%;
+  }
+  .what-we-do.housing_solution.Energy_Efficient .row.row_justify {
+    gap: 40px;
+  }
+  .signlefaqlink {
+    gap: 12px;
+    margin-bottom: 24px;
+    flex-wrap: wrap;
+  }
+  .team_members {
+    padding: 40px 0px;
+  }
+  .contact_formfaq .card-header {
+    line-height: 140%;
+  }
+  .what-we-do.about-schon-we-do.about-schon-we-dopage {
+    padding-top: 40px;
+  }
+  .OurJourneymaininner_add {
+    flex: 0 0 45%;
+    max-width: 45%;
+  }
+  .OurJourneymainblock {
+    margin-top: 40px;
+    gap: 24px;
+  }
+  .OurJourneymain .para {
+    font-size: 18px;
+  }
+  .mision_vision_row2 {
+    min-height: auto;
+    padding: 20px;
+  }
+  .mision_vision_img img {
+    width: auto;
+    height: 100px;
+  }
+  .mision_vision_head h3 {
+    font-size: 24px;
+  }
+  .team_members_content {
+    position: relative;
+    bottom: inherit;
+    background-color: #000;
+    height: 100%;
+    opacity: 1;
+    margin-top: -50px;
+  }
+  .blog_listing {
+    padding: 40px 0px;
+  }
+  .what-we-do.contactpage .distinctive_Features_block {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+  }
+  .what-we-do.contactpage .distinctive_Features_icon img {
+    width: auto;
+    height: 70px;
+  }
+  .contactpage_blockcontant span,
+  .contactpage_blockcontant span a {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 150%;
+  }
+  .contactpage_blockimg img {
+    width: 32px;
+    height: auto;
+  }
+  .contactpage_block.contactpage_block1 {
+    margin-top: 10px;
+  }
+  .contact_formfaq_main {
+    padding: 0 0px;
+  }
+  .contact_formfaq {
+    margin-top: 40px;
+  }
+  .contact_form .heading {
+    text-align: center;
+  }
+  .product_list_grid {
+    padding: 0 10px 50px;
+  }
+  .distinctive_Features {
+    padding: 0 10px 50px;
+  }
+  .distinctive_Features .heading.text-center,
+  .distinctive_Features .para.text-center {
+    text-align: left !important;
+  }
+  .cuttingedge-page {
+    padding: 50px 10px;
+  }
+  .color_swatches {
+    padding: 50px 10px;
+  }
+  .cuttingedge-page-img-mobile {
+    display: block;
+  }
+  .cuttingedge-page-img {
+    display: none;
+  }
+  .row-what-we-do-inner-1 ul {
+    overflow: auto;
+  }
+  .count-title {
+    font-size: 24px !important;
+  }
+  .count-text {
+    font-size: 16px !important;
+  }
+  .ourexistence_block_img img {
+    height: 60px;
+    width: auto;
+    margin-bottom: 16px;
+  }
+  .ourexistence_block_content h3 {
+    font-size: 16px;
+  }
+  .ourexistence_block_content h3 span {
+    display: block;
+    font-size: 12px;
+  }
+  .ourexistence .row.row_ourexistence {
+    justify-content: space-around;
+    margin-top: 24px;
+  }
+  .banner-container .banner {
+    padding: 50px 20px 50px 20px;
+  }
+  .banner-container .banner {
+    align-items: end;
+  }
+  .row.our_solutions_row {
+    display: none;
+  }
+  .what-we-do.home-bar-cta .what-we-do-bt {
+    justify-content: center;
+  }
+  .testimonials {
+    padding: 20px;
+  }
+  .testimonialsmain {
+    padding: 50px 0px;
+  }
+  .our_solutions .what-we-do-bt {
+    justify-content: start;
+  }
+  .Client_list .what-we-do-bt {
+    justify-content: start;
+  }
+  .what-we-do-btform {
+    padding: 40px 20px;
+    margin-top: 20px;
+  }
+  .contact_form {
+    padding: 50px 0 0;
+  }
+  .what-we-do-btform .form-row {
+    align-items: inherit;
+  }
+  .contact_form_gsf {
+    align-items: start;
+  }
+  .contact_logo img {
+    width: 260px;
+    height: auto;
+  }
+  .why_chose_schon_head h3 {
+    font-size: 20px;
+    margin: 16px 0;
+  }
+  .hoeitwork_slider {
+    padding: 20px 0 0 20px;
+    gap: 20px;
+  }
+  .hoeitwork_sliderspan {
+    font-size: 64px;
+    right: -12px;
+    top: 0;
+  }
+  .siding-nav-link a.nav-bt,
+  .siding-nav-link div.nav-bt {
+    font-size: 16px;
+  }
+  .header-inner-bottom-1 p,
+  .header-inner-bottom-2 p {
+    font-size: 16px;
+    margin-top: 16px;
+  }
+  .sidenav .header-social a img {
+    width: auto;
+    height: 18px;
+  }
+  .sidenav .header-btn {
+    font-size: 16px;
+    padding: 14px 20px;
+  }
+  .header-social-btn {
+    display: flex;
+    margin-left: 20px;
+    flex-direction: column;
+    align-items: baseline;
+    gap: 10px;
+  }
+  .header-social {
+    gap: 20px;
+    padding: 20px;
+  }
+  .header-inner-bottom {
+    padding: 20px 0;
+  }
+  .sidenav .cross-btn img {
+    width: 20px;
+    height: auto;
+  }
+  .nav-logo img {
+    width: auto;
+    height: 40px;
+  }
+  .header-inner.scrollingbar .header-inner-2 a img {
+    width: 132px;
+    height: auto;
+  }
+  .row-what-we-do-inner-2 {
+    height: unset;
+    overflow-y: inherit;
+    overflow-x: inherit;
+  }
+  .what-we-do .what-we-do-bt {
+    justify-content: start;
+  }
+  .product_listing_content {
+    display: none;
+  }
+  .product_listing_content.product_listing_content_hover {
+    display: block;
+    transform: translate(0%, 0%);
+    left: 0;
+    opacity: 1;
+  }
+  .why_chose_schon .what-we-do-bt {
+    justify-content: start;
+  }
+  .row.row-inn-img {
+    display: none;
+  }
+  .row-inn-img-img.row-inn-img-img-mb {
+    margin: 24px 0;
+  }
+  .row-what-we-do-inner-2 {
+    height: auto;
+  }
+  .row-what-we-do-inner-3 {
+    display: none;
+  }
+  .row-what-we-do-inner-3.active {
+    display: block;
+  }
+  .hmcount-bg .wrapper {
+    margin: 40px 0 0 0;
+  }
+  .what-we-do.home-bar-cta .heading {
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  .what-we-do.home-bar-cta .para {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 200;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+  }
+  .what-we-do-bt {
+    display: flex;
+    justify-content: center;
+  }
+  .hoeitwork_slider_inner2 img {
+    height: 260px;
+    width: auto;
+  }
+  .project_list .what-we-do-bt {
+    display: flex;
+    justify-content: flex-start;
+  }
+  .product_listing_img img {
+    width: 100%;
+  }
+  .row.row_product_space {
+    display: none;
+  }
+  .row.row_product_space.row_product_space-mobile {
+    display: block;
+  }
+  .row-inn-img-img.row-inn-img-img-mb {
+    display: block;
+  }
+  .header-inner-2 a img {
+    width: 132px;
+    height: auto;
+  }
+  .header-inner .header-inner-1 span img {
+    width: 32px;
+    height: auto;
+  }
+  .header-inner {
+    flex-direction: row-reverse;
+  }
+  .banner-para {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 200;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    margin-bottom: 40px;
+  }
+  .row-what-we-do {
+    flex-direction: column;
+  }
+  .row-what-we-do-inner-1 {
+    flex: 0 0 100%;
+    max-width: 100%;
+    border-right: 0;
+    border-bottom: 0.75px solid #aeaeae;
+  }
+  .row-what-we-do-inner-1 ul {
+    margin: 0;
+  }
+  .small-inpara {
+    max-width: 100%;
+  }
+  .row-what-we-do-inner-2 {
+    max-width: 100%;
+    flex: 0 0 100%;
+  }
+  .row-what-we-do-inner-1 ul {
+    gap: 8px;
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+  }
+  .row-what-we-do-inner-1 li a.active {
+    font-size: 20px;
+  }
+  .row-what-we-do-inner-1 li a {
+    font-size: 18px;
+    padding: 8px 8px 10px;
+  }
+  .row-what-we-do-inner-1 li a.active {
+    font-size: 20px;
+    border-right: 0;
+    border-bottom: 2px solid #000;
+  }
+  .small-inpara {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0%;
+    text-align: justify;
+  }
+  .row-what-we-do {
+    margin-top: 24px;
+  }
+  .small-inpara {
+    margin: 0;
+  }
+  .what-we-do {
+    padding: 40px 10px;
+  }
+  .what-we-do.about-schon-we-do {
+    padding: 0 10px;
+  }
+  .hmcount-bg {
+    padding: 0 10px 30px;
+  }
+  .hoeitwork {
+    padding: 40px 0 40px 10px;
+  }
+  .project_list {
+    padding: 40px 10px;
+  }
+  .why_chose_schon {
+    padding: 40px 10px;
+  }
+  .why_chose_schon {
+    padding: 40px 10px;
+  }
+  .our_solutions {
+    padding: 40px 10px;
+  }
+  .Client_list .row.row_justify {
+    padding: 0 10px;
+  }
+  .Client_list {
+    padding: 40px 0;
+  }
+  .testimonialsmain {
+    padding: 40px 0px;
+  }
+  .hoeitwork_sliderspan {
+    display: none;
+  }
+  .Client_list .marquee-text img {
+    width: auto;
+    height: 30px;
+  }
+  .count-text {
+    font-size: 14px !important;
+  }
+  .product_listing_img img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+  }
+  .product_listing:hover
+    .product_listing_content.product_listing_content_hover {
+    opacity: 1;
+    bottom: 0;
+  }
+}
+
+@media (max-width: 576px) {
+  .ourexistence_block_img img {
+    height: auto;
+    width: 100px;
+  }
+  .banner-container {
+    height: 75vh;
+  }
+  .banner-heading {
+    font-size: 40px;
+  }
+  .siding-nav-link
+    ul
+    li
+    .dropdown-menu-links.dropdown-menu-linksiafg
+    .tab-content
+    ul
+    li {
+    flex: 0 0 100%;
+    max-width: 100%;
+    /* overflow: auto; */
+  }
+  .siding-nav-link .dropdown-menu-links.dropdown-menu-linksiafg .tab-content {
+    overflow: auto;
+  }
+  .arrow-down {
+    width: 18px;
+    height: 18px;
+  }
+  .bloglisting.listingbar .bloglisting_img {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .faqsearch form button {
+    margin: 20px auto 0;
+    display: flex;
+    position: relative;
+    top: 0;
+    right: 0;
+    align-items: center;
+    border-radius: 8px;
+  }
+  .blog_listing .heading {
+    margin-bottom: 0;
+  }
+  .row.row_justify.row_justify_blog {
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+  .faqsearch form input {
+    padding: 19px;
+  }
+  .about-schon-we-do-img iframe {
+    border-radius: 20px;
+    width: 100%;
+    height: 300px;
+  }
+  .siding-nav-link ul li {
+    flex: 0 0 100%;
+    max-width: 100%;
+    text-align: left;
+  }
+  .siding-nav-link ul li .dropdown-menu-links {
+    width: 100%;
+  }
+  .banner-content.banner-content-blog .banner-content-righting img {
+    width: 100%;
+  }
+  .ourexistence_block {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  .ourexistence .row.row_ourexistence {
+    gap: 24px;
+  }
+  .ourexistence {
+    padding: 40px 0 30px;
+  }
+  .ourexistence_block_content h3 {
+    font-size: 20px;
+    text-align: left;
+  }
+  .ourexistence_block_content h3 span {
+    display: block;
+    font-size: 16px;
+  }
+  .ourexistence_block_img {
+    text-align: left;
+  }
+}
+
+@media (max-width: 450px) {
+  .hoeitwork_slider .heading {
+    font-size: 20px;
+  }
+  .hoeitwork_slider .para {
+    font-size: 16px;
+  }
+}
+@media (max-height: 450px) {
+  .sidenav {
+    padding-top: 15px;
+  }
+
+  .sidenav a {
+    font-size: 18px;
+  }
+}
+
+/* Related Projects Styling */
+.related-projects-section {
+  padding: 80px 0;
+}
+
+.related-projects-section .distinctive_Features_block {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-radius: 12px;
+  overflow: hidden;
+  background: #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.related-projects-section .distinctive_Features_block:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+.related-projects-section .distinctive_Features_icon {
+  position: relative;
+  overflow: hidden;
+}
+
+.related-projects-section .distinctive_Features_icon img {
+  transition: transform 0.3s ease;
+}
+
+.related-projects-section
+  .distinctive_Features_block:hover
+  .distinctive_Features_icon
+  img {
+  transform: scale(1.05);
+}
+
+.related-projects-section .distinctive_Features_content {
+  padding: 20px;
+}
+
+.related-projects-section .distinctive_Features_content h3 {
+  margin-bottom: 10px;
+  color: #333;
+  font-weight: 600;
+}
+
+.related-projects-section .distinctive_Features_content .smallpara {
+  color: #666;
+  line-height: 1.6;
+  margin-bottom: 0;
+}
+
+.category-info-section {
+  background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+  padding: 80px 0;
+}
+
+.category-info-section .heading {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.category-info-section .para {
+  color: #666;
+  max-width: 800px;
+  margin: 0 auto 40px;
+}
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type='number'] {
+  -moz-appearance: textfield;
+}
