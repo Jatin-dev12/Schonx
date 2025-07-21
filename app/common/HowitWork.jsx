@@ -78,7 +78,7 @@ function HowItWorks() {
                     </div>
                   </div>
                   <div className='hoeitwork_slider_inner2'>
-                    <img src='/images/left_1.png' alt='Consultation' />
+                    <img src='/images/Consultation.png' alt='Consultation' />
                   </div>
                 </div>
               </SwiperSlide>
@@ -101,7 +101,7 @@ function HowItWorks() {
                     </div>
                   </div>
                   <div className='hoeitwork_slider_inner2'>
-                    <img src='/images/left_1.png' alt='Approval' />
+                    <img src='/images/Design Approval.png' alt='Approval' />
                   </div>
                 </div>
               </SwiperSlide>
@@ -123,7 +123,10 @@ function HowItWorks() {
                     </div>
                   </div>
                   <div className='hoeitwork_slider_inner2'>
-                    <img src='/images/left_1.png' alt='Execution' />
+                    <img
+                      src='/images/Precision  production.png'
+                      alt='Execution'
+                    />
                   </div>
                 </div>
               </SwiperSlide>
@@ -145,7 +148,10 @@ function HowItWorks() {
                     </div>
                   </div>
                   <div className='hoeitwork_slider_inner2'>
-                    <img src='/images/left_1.png' alt='Execution' />
+                    <img
+                      src='/images/Proffestional installation.png'
+                      alt='Execution'
+                    />
                   </div>
                 </div>
               </SwiperSlide>
