@@ -36,7 +36,7 @@ function Index() {
           <div className='row row_about_schon'>
             <div className='col-lg-12'>
               <div className='about-schon-we-do-img'>
-                 <iframe src="https://www.youtube.com/embed/6xWIRLubPGc?playlist=6xWIRLubPGc&loop=1&autoplay=1&mute=1&loop=1"></iframe>
+                 <iframe src="https://www.youtube.com/embed/6xWIRLubPGc?playlist=6xWIRLubPGc&loop=1&autoplay=0&mute=1&loop=1"></iframe>
               </div>
             </div>
           </div>

@@ -148,7 +148,7 @@ const OneStopHousingSolutions = () => {
           <div className='row row_justify'>
             <div className='col-lg-6 col-md-12'>
               <div className='onestop'>
-                <iframe src='https://www.youtube.com/embed/xVcAiBF5Cwo?playlist=xVcAiBF5Cwo&loop=1&autoplay=1&mute=1&loop=1'></iframe>
+                <iframe src='https://www.youtube.com/embed/xVcAiBF5Cwo?playlist=xVcAiBF5Cwo&loop=1&autoplay=0&mute=1&loop=1'></iframe>
               </div>
             </div>
             <div className='col-lg-6 col-md-12'>
