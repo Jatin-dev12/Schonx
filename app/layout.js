@@ -88,10 +88,80 @@ export default function RootLayout({ children }) {
             gtag('event', 'conversion', {'send_to': 'AW-11418786545/VZs0CJ2J8pYZEPG188Qq'});
           `}
         </Script>
+
       </head>
 
 
       <body className={`${dmSans.variable} ${playfair.variable}`}>
+              <Script
+        strategy='afterInteractive'
+        src='https://www.googletagmanager.com/gtag/js?id=G-LZHQVX7WV0'
+      />
+      <Script
+        id='google-analytics'
+        strategy='afterInteractive'
+        dangerouslySetInnerHTML={{
+          __html: `
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){ dataLayer.push(arguments); }
+            gtag('js', new Date());
+            gtag('config', 'G-LZHQVX7WV0');
+          `,
+        }}
+      />
+
+      {/* JSON-LD: Organization */}
+      <Script
+        id='jsonld-organization'
+        type='application/ld+json'
+        strategy='afterInteractive'
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            '@context': 'https://schema.org',
+            '@type': 'Organization',
+            name: 'The Schon',
+            url: 'https://theschon.com/',
+            logo: 'https://theschon.com/images/newimage/Group%20412.png',
+            sameAs: [
+              'https://www.facebook.com/schondoorways/',
+              'https://www.instagram.com/schon_doorways/',
+              'https://www.linkedin.com/company/theschon/',
+              'https://in.pinterest.com/schon_doorways/',
+            ],
+          }),
+        }}
+      />
+
+      {/* JSON-LD: LocalBusiness */}
+      <Script
+        id='jsonld-localbusiness'
+        type='application/ld+json'
+        strategy='afterInteractive'
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            '@context': 'https://schema.org',
+            '@type': 'LocalBusiness',
+            name: 'The Schon',
+            image: 'https://theschon.com/images/newimage/Group%20412.png',
+            '@id': '',
+            url: 'https://theschon.com/',
+            telephone: '9535359481',
+            address: {
+              '@type': 'PostalAddress',
+              streetAddress: '19 Sharp Building, Queens Road, Vasanth Nagar',
+              addressLocality: 'Bengaluru',
+              postalCode: '560052',
+              addressCountry: 'IN',
+            },
+            sameAs: [
+              'https://www.facebook.com/schondoorways/',
+              'https://www.instagram.com/schon_doorways/',
+              'https://www.linkedin.com/company/theschon/',
+              'https://in.pinterest.com/schon_doorways/',
+            ],
+          }),
+        }}
+      />
         {children}
         <noscript>
           <iframe

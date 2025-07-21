@@ -20,7 +20,7 @@ const SideNav = () => {
     async function fetchData() {
       const token = process.env.NEXT_PUBLIC_API_TOKEN;
       const apiUrl = process.env.NEXT_PUBLIC_API_URL;
-      const res = await axios.get(`${apiUrl}project`);
+      const res = await axios.get(`${apiUrl}nav_project`);
       const allProjects = res.data.project;
 
       setProjects(allProjects);

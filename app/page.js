@@ -2,7 +2,7 @@
 
 'use client';
 
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState, useRef } from 'react';
 import Head from 'next/head';
 import Script from 'next/script';
 import Link from 'next/link'; // Import Link component from next/link
@@ -23,6 +23,72 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Mousewheel } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/navigation';
+
+const HoverPlayYouTube = () => {
+  const playerRef = useRef(null);
+  const iframeRef = useRef(null);
+
+  useEffect(() => {
+    // Load YouTube IFrame Player API
+    const tag = document.createElement('script');
+    tag.src = 'https://www.youtube.com/iframe_api';
+    const firstScriptTag = document.getElementsByTagName('script')[0];
+    firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+
+    // Create the YouTube player once API is ready
+    window.onYouTubeIframeAPIReady = () => {
+      playerRef.current = new window.YT.Player(iframeRef.current, {
+        videoId: 'xVcAiBF5Cwo',
+        playerVars: {
+          autoplay: 0,
+          loop: 1,
+          playlist: 'xVcAiBF5Cwo',
+          mute: 0,
+          controls: 0,
+          showinfo: 0,
+          modestbranding: 1,
+        },
+        events: {
+          onReady: (event) => {
+            event.target.pauseVideo(); // Ensure it's paused initially
+          },
+        },
+      });
+    };
+
+    return () => {
+        if (playerRef.current) {
+            playerRef.current.destroy();
+        }
+    }
+  }, []);
+
+  // Handlers for hover
+  const handleMouseEnter = () => {
+    playerRef.current?.playVideo();
+  };
+
+  const handleMouseLeave = () => {
+    playerRef.current?.pauseVideo();
+  };
+
+  return (
+    <div
+      className='about-schon-we-do-img'
+      onMouseEnter={handleMouseEnter}
+      onMouseLeave={handleMouseLeave}
+    >
+      <div id='player-container'>
+        <div
+          ref={iframeRef}
+          id='youtube-player'
+
+        />
+      </div>
+    </div>
+  );
+};
 
 export default function Home() {
   return (
@@ -53,76 +119,7 @@ export default function Home() {
         />
         {/* URL to an image for Twitter previews */}
       </Head>
-      {/* Google Analytics */}
-      <Script
-        strategy='afterInteractive'
-        src='https://www.googletagmanager.com/gtag/js?id=G-LZHQVX7WV0'
-      />
-      <Script
-        id='google-analytics'
-        strategy='afterInteractive'
-        dangerouslySetInnerHTML={{
-          __html: `
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){ dataLayer.push(arguments); }
-            gtag('js', new Date());
-            gtag('config', 'G-LZHQVX7WV0');
-          `,
-        }}
-      />
 
-      {/* JSON-LD: Organization */}
-      <Script
-        id='jsonld-organization'
-        type='application/ld+json'
-        strategy='afterInteractive'
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            '@context': 'https://schema.org',
-            '@type': 'Organization',
-            name: 'The Schon',
-            url: 'https://theschon.com/',
-            logo: 'https://theschon.com/images/newimage/Group%20412.png',
-            sameAs: [
-              'https://www.facebook.com/schondoorways/',
-              'https://www.instagram.com/schon_doorways/',
-              'https://www.linkedin.com/company/theschon/',
-              'https://in.pinterest.com/schon_doorways/',
-            ],
-          }),
-        }}
-      />
-
-      {/* JSON-LD: LocalBusiness */}
-      <Script
-        id='jsonld-localbusiness'
-        type='application/ld+json'
-        strategy='afterInteractive'
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            '@context': 'https://schema.org',
-            '@type': 'LocalBusiness',
-            name: 'The Schon',
-            image: 'https://theschon.com/images/newimage/Group%20412.png',
-            '@id': '',
-            url: 'https://theschon.com/',
-            telephone: '9535359481',
-            address: {
-              '@type': 'PostalAddress',
-              streetAddress: '19 Sharp Building, Queens Road, Vasanth Nagar',
-              addressLocality: 'Bengaluru',
-              postalCode: '560052',
-              addressCountry: 'IN',
-            },
-            sameAs: [
-              'https://www.facebook.com/schondoorways/',
-              'https://www.instagram.com/schon_doorways/',
-              'https://www.linkedin.com/company/theschon/',
-              'https://in.pinterest.com/schon_doorways/',
-            ],
-          }),
-        }}
-      />
 
       <SideNav />
       <HomeBanner />
@@ -156,9 +153,7 @@ export default function Home() {
           </div>
           <div className='row row_about_schon'>
             <div className='col-lg-12'>
-              <div className='about-schon-we-do-img'>
-                <iframe src='https://www.youtube.com/embed/xVcAiBF5Cwo?playlist=xVcAiBF5Cwo&loop=1&autoplay=1&mute=1&loop=1'></iframe>
-              </div>
+              <HoverPlayYouTube />
             </div>
           </div>
         </div>
