@@ -20,12 +20,10 @@ export async function generateStaticParams() {
 
 async function getPost(slug) {
   const token = process.env.NEXT_PUBLIC_API_TOKEN;
-  const res = await axios.post(
-    `${process.env.NEXT_PUBLIC_API_URL}post-detail/${slug}`,
-    {
-      headers: { Authorization: `Bearer ${token}` },
-    }
-  );
+  const res = await axios.get(`${process.env.NEXT_PUBLIC_API_URL}post`, {
+    params: { slug },
+    headers: { Authorization: `Bearer ${token}` },
+  });
   return res.data?.post || null;
 }
 
