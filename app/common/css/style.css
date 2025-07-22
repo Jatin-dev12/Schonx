@@ -3564,6 +3564,10 @@ a.blog-listingbtn {
   .header-inner .header-inner-3 {
     display: none;
   }
+  .product_list_grid_block_content h3 {
+	text-align: left;
+  line-height: 140%;
+}
   .row.row_product_space.row_product_space-mobile.row_product_space-mobile-data {
 	display: none;
 }
