@@ -234,8 +234,8 @@ function ProductList() {
               <div className='what-we-do-bt'>
                 <div className='header-inner-3'>
                   {/* <a className='header-btn' href='#'>
-                    Read More <img src='/images/arrow.png' alt='' />
-                  </a> */}
+                      Read More <img src='/images/arrow.png' alt='' />
+                    </a> */}
                 </div>
               </div>
             </div>
@@ -337,96 +337,11 @@ function ProductList() {
             </div>
           </div>
 
-          <div className='row why_chose_schon_row why_chose_schon_row_ad'>
-            <div className='col-lg-4 col-md-6 col-sm-12'>
-              <div className='why_chose_schon_block'>
-                <div className='why_chose_schon_icon'>
-                  <img src='/images/productlisticon10.png' alt='' />
-                </div>
-                <div className='why_chose_schon_head'>
-                  <h3>Aluminium Doors</h3>
-                </div>
-                <div className='why_chose_schon_para'>
-                  <p>
-                    Sliding, folding, hinged, swing, and automated systems —
-                    crafted for smooth performance, modern aesthetics, and
-                    maximum security. Ideal for both residential and commercial
-                    applications.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div className='col-lg-4 col-md-6 col-sm-12'>
-              <div className='why_chose_schon_block'>
-                <div className='why_chose_schon_icon'>
-                  <img src='/images/productlisticon11.png' alt='' />
-                </div>
-                <div className='why_chose_schon_head'>
-                  <h3>Aluminium Windows </h3>
-                </div>
-                <div className='why_chose_schon_para'>
-                  <p>
-                    From ultra-slim sliding systems to fixed, awning, and
-                    casement windows, our range brings in natural light,
-                    ventilation, and thermal efficiency with sleek, minimal
-                    designs.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div className='col-lg-4 col-md-6 col-sm-12'>
-              <div className='why_chose_schon_block'>
-                <div className='why_chose_schon_icon'>
-                  <img src='/images/productlisticon12.png' alt='' />
-                </div>
-                <div className='why_chose_schon_head'>
-                  <h3>Railings</h3>
-                </div>
-                <div className='why_chose_schon_para'>
-                  <p>
-                    Modern aluminium and glass railing systems for balconies,
-                    staircases, and terraces — combining safety, transparency,
-                    and elegance.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div className='col-lg-4 col-md-6 col-sm-12'>
-              <div className='why_chose_schon_block'>
-                <div className='why_chose_schon_icon'>
-                  <img src='/images/productlisticon13.png' alt='' />
-                </div>
-                <div className='why_chose_schon_head'>
-                  <h3>Shower Cubicles</h3>
-                </div>
-                <div className='why_chose_schon_para'>
-                  <p>
-                    Designer cubicles with brass/chrome hardware and
-                    high-performance sealing — offering spa-like luxury,
-                    effortless maintenance, and lasting durability.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div className='col-lg-4 col-md-6 col-sm-12'>
-              <div className='why_chose_schon_block'>
-                <div className='why_chose_schon_icon'>
-                  <img src='/images/productlisticon14.png' alt='' />
-                </div>
-                <div className='why_chose_schon_head'>
-                  <h3>Luxury Wall Décor & Partitions</h3>
-                </div>
-                <div className='why_chose_schon_para'>
-                  <p>
-                    Our exclusive range of lacquered and decorative glass panels
-                    reimagines interiors. Ideal for living spaces, bedrooms, and
-                    premium offices — these pieces add both function and
-                    finesse.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
+          {projects.length > 0 && projects[0]['distinctive'] ? (
+            parseDistinctiveHTML(projects[0]['distinctive'])
+          ) : (
+            <p>No distinctive features available.</p>
+          )}
         </div>
       </section>
     </>
