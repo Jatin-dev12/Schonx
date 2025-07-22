@@ -54,7 +54,7 @@ function ProjectListing() {
         </div>
 
         {/* Swiper slider */}
-        <div className='row row_product_space row_product_space-mobile'>
+        <div className='row row_product_space row_product_space-mobile row_product_space-mobile-data'>
           <Swiper
             modules={[Navigation, Mousewheel]}
             direction='horizontal'
@@ -107,7 +107,7 @@ function ProjectListing() {
         </div>
 
         {/* Grid view */}
-        <div className='row row_product_space'>
+        <div className='row row_product_space row_product_spaceneww'>
           {Array.isArray(portfolio) &&
             portfolio.map((item, index) => (
               <div

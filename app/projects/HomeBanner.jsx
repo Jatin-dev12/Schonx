@@ -78,7 +78,7 @@ const HomeBanner = () => {
   }, [currentIndex]);
 
   return (
-    <div className='banner-container' ref={containerRef}>
+    <div className='banner-container banner-container_project' ref={containerRef}>
       {/* Static banners */}
       <div
         className='banner active'
@@ -105,7 +105,7 @@ const HomeBanner = () => {
       </div>
       <div
         className='banner'
-        style={{ backgroundImage: `url('/images/projectbanner.jpg')` }}
+        style={{ backgroundImage: `url('/images/projectbanner.png')` }}
       >
         <div className='banner-content'>
           <div className='banner-content-left'>
