@@ -337,8 +337,8 @@ function ProductList() {
             </div>
           </div>
 
-          {projects.length > 0 && projects[0]['distinctive'] ? (
-            parseDistinctiveHTML(projects[0]['distinctive'])
+          {projects.length > 0 && projects[0]['distinctive '] ? (
+            parseDistinctiveHTML(projects[0]['distinctive '])
           ) : (
             <p>No distinctive features available.</p>
           )}
