@@ -179,10 +179,8 @@ function ProductList() {
         >
           <div className='banner-content'>
             <div className='banner-content-left'>
-              <h1 className='banner-heading'>{category.title || 'Category'}</h1>
-              <p className='banner-para'>
-                {category.sub_heading || 'Showing all available Products.'}
-              </p>
+              <h1 className='banner-heading'>{category.title || ''}</h1>
+              <p className='banner-para'>{category.sub_heading || ''}</p>
               <div className='header-inner-3'>
                 <a className='header-btn' href='#'>
                   {' '}
@@ -201,10 +199,8 @@ function ProductList() {
         >
           <div className='banner-content'>
             <div className='banner-content-left'>
-              <h1 className='banner-heading'>{category.title || 'Category'}</h1>
-              <p className='banner-para'>
-                {category.sub_heading || 'Showing all available Products.'}
-              </p>
+              <h1 className='banner-heading'>{category.title || ''}</h1>
+              <p className='banner-para'>{category.sub_heading || ''}</p>
               <div className='header-inner-3'>
                 <a className='header-btn' href='#'>
                   {' '}
@@ -226,8 +222,8 @@ function ProductList() {
           <div className='row row_justify'>
             <div className='col-lg-9 col-md-12'>
               <div className='main-heading'>
-                <h2 className='heading'>{category.name || 'Category'}</h2>
-                <p className='para'>{category.description || 'Description'}</p>
+                <h2 className='heading'>{category.name || ''}</h2>
+                <p className='para'>{category.description || ''}</p>
               </div>
             </div>
             <div className='col-lg-3 col-md-12'>
@@ -299,7 +295,12 @@ function ProductList() {
 
                   <div className='product_list_grid_block_content'>
                     <h3>{proj.name}</h3>
-                    <h4>{proj.overview_content || 'Your subtitle here'}</h4>
+                    <h4>
+                      {(proj.overview_content?.substring(0, 230) ||
+                        'Your subtitle here') +
+                        (proj.overview_content?.length > 230 ? '...' : '')}
+                    </h4>
+
                     <div className='what-we-do-bt'>
                       <div className='header-inner-3'>
                         <Link
