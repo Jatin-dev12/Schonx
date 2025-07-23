@@ -175,14 +175,12 @@ function ProductList() {
         {/* Static banners */}
         <div
           className='banner active'
-          style={{ backgroundImage: `url('/images/aboutpagebanner.jpg')` }}
+          style={{ backgroundImage: `url('/images/prodpagebanner.jpg')` }}
         >
           <div className='banner-content'>
             <div className='banner-content-left'>
-              <h1 className='banner-heading'>{category.title || 'Category'}</h1>
-              <p className='banner-para'>
-                {category.sub_heading || 'Showing all available Products.'}
-              </p>
+              <h1 className='banner-heading'>{category.title || ''}</h1>
+              <p className='banner-para'>{category.sub_heading || ''}</p>
               <div className='header-inner-3'>
                 <a className='header-btn' href='#'>
                   {' '}
@@ -197,14 +195,12 @@ function ProductList() {
         </div>
         <div
           className='banner'
-          style={{ backgroundImage: `url('/images/aboutpagebanner.jpg')` }}
+          style={{ backgroundImage: `url('/images/prodpagebanner.jpg')` }}
         >
           <div className='banner-content'>
             <div className='banner-content-left'>
-              <h1 className='banner-heading'>{category.title || 'Category'}</h1>
-              <p className='banner-para'>
-                {category.sub_heading || 'Showing all available Products.'}
-              </p>
+              <h1 className='banner-heading'>{category.title || ''}</h1>
+              <p className='banner-para'>{category.sub_heading || ''}</p>
               <div className='header-inner-3'>
                 <a className='header-btn' href='#'>
                   {' '}
@@ -226,8 +222,8 @@ function ProductList() {
           <div className='row row_justify'>
             <div className='col-lg-9 col-md-12'>
               <div className='main-heading'>
-                <h2 className='heading'>{category.name || 'Category'}</h2>
-                <p className='para'>{category.description || 'Description'}</p>
+                <h2 className='heading'>{category.name || ''}</h2>
+                <p className='para'>{category.description || ''}</p>
               </div>
             </div>
             <div className='col-lg-3 col-md-12'>
