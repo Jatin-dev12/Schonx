@@ -94,12 +94,12 @@ function FooterBar() {
                   <li>
                     <Link href='/about'>About Us</Link>
                   </li>
-                  {/* <li>
-                    <Link href='/news'>News</Link>
-                  </li> */}
                   <li>
-                    <Link href='/faq'>FAQs</Link>
+                    <Link href='/news'>News</Link>
                   </li>
+                  {/* <li>
+                    <Link href='/faq'>FAQs</Link>
+                  </li> */}
                   <li>
                     <Link href='/contact'>Contact Us</Link>
                   </li>
@@ -113,7 +113,7 @@ function FooterBar() {
                 <ul>
                   {categories.map((key) => (
                     <li>
-                      <a href={`/product?slug=${key.slug}`}>{key.title}</a>
+                      <a href={`/product?slug=${key.slug}`}>{key.name}</a>
                     </li>
                   ))}
                 </ul>
