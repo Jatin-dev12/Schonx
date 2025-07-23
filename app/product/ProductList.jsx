@@ -295,7 +295,12 @@ function ProductList() {
 
                   <div className='product_list_grid_block_content'>
                     <h3>{proj.name}</h3>
-                    <h4>{proj.overview_content || 'Your subtitle here'}</h4>
+                    <h4>
+                      {(proj.overview_content?.substring(0, 230) ||
+                        'Your subtitle here') +
+                        (proj.overview_content?.length > 230 ? '...' : '')}
+                    </h4>
+
                     <div className='what-we-do-bt'>
                       <div className='header-inner-3'>
                         <Link
