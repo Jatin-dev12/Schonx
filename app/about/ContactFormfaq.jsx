@@ -60,11 +60,12 @@ function ContactFormfaq() {
       }
 
       const knownStaticPages = ['product', 'products', 'projects', 'contact'];
+      const hasSlugQuery = !!searchParams?.get('slug');
       const isStaticPage = knownStaticPages.includes(slug.toLowerCase());
 
       try {
-        if (isStaticPage) {
-          // Fetch from /api/faqs for static pages
+        // ✅ CASE 1: STATIC PAGE (like /contact, /projects)
+        if (isStaticPage && !hasSlugQuery) {
           const res = await axios.get(`${apiUrl}faqs`, {
             headers: {
               Authorization: `Bearer ${token}`,
@@ -84,8 +85,13 @@ function ContactFormfaq() {
             setFaqs(defaultFaqs);
             // setError(`No FAQs found for static page: ${slug}`);
           }
-        } else {
-          // Fetch from /project?slug=... for dynamic pages
+
+          setLoading(false);
+          return;
+        }
+
+        // ✅ CASE 2: ?slug= in URL (like /product?slug=xyz)
+        if (hasSlugQuery) {
           const response = await axios.get(`${apiUrl}project?slug=${slug}`, {
             headers: {
               Authorization: `Bearer ${token}`,
@@ -93,22 +99,42 @@ function ContactFormfaq() {
             timeout: 10000,
           });
 
-          if (response.data?.status && Array.isArray(response.data.project)) {
-            const projectWithFaqs = response.data.project.find((project) =>
-              project?.faqs?.faqs?.some((faq) => faq.question && faq.answer)
-            );
+          const project = response.data?.project?.[0];
 
-            if (projectWithFaqs?.faqs?.faqs?.length > 0) {
-              setFaqs(projectWithFaqs.faqs.faqs);
-              setError(null);
-            } else {
-              setFaqs(defaultFaqs);
-              // setError(`No FAQs found for project: ${slug}`);
-            }
+          if (project?.category?.faqs?.length > 0) {
+            setFaqs(project.category.faqs);
+            setError(null);
           } else {
             setFaqs(defaultFaqs);
-            setError('Invalid response from project API');
+            // setError(`No FAQs found in category for project: ${slug}`);
           }
+
+          setLoading(false);
+          return;
+        }
+
+        // ✅ CASE 3: Dynamic project page like /product/bi-fold-aluminium-doors
+        const response = await axios.get(`${apiUrl}project?slug=${slug}`, {
+          headers: {
+            Authorization: `Bearer ${token}`,
+          },
+          timeout: 10000,
+        });
+
+        if (response.data?.status && Array.isArray(response.data.project)) {
+          const projectWithFaqs = response.data.project.find((project) =>
+            project?.faqs?.faqs?.some((faq) => faq.question && faq.answer)
+          );
+
+          if (projectWithFaqs?.faqs?.faqs?.length > 0) {
+            setFaqs(projectWithFaqs.faqs.faqs);
+            setError(null);
+          } else {
+            setFaqs(defaultFaqs);
+          }
+        } else {
+          setFaqs(defaultFaqs);
+          setError('Invalid response from project API');
         }
       } catch (err) {
         console.error('FAQ Fetch Error:', err);
